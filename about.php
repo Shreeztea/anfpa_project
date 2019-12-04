@@ -7,18 +7,18 @@
 	<article class="col-md-8 col-lg-8 col-12 ml-5 my-3">
 		<div style="text-align: justify;">
 		<!-- Nav tabs -->
-<ul class="nav nav-pills my-3">
+<ul class="nav nav-tabs my-3">
   <li class="nav-item">
-    <a class="nav-link active" data-toggle="pill" href="#home"><strong><span class="eng">Introduction</span><span class="nep"> पिरचय</span></strong></a>
+    <a class="nav-link active" data-toggle="tab" href="#home"><strong><span class="eng">INTRODUCTION</span><span class="nep"> पिरचय</span></strong></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="pill" href="#menu1"><strong><span class="eng">VISION</span><span class="nep">दुरदृष्टि </span></strong></a>
+    <a class="nav-link" data-toggle="tab" href="#menu1"><strong><span class="eng">VISION</span><span class="nep">दुरदृष्टि </span></strong></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="pill" href="#menu2"><STRONG><span class="eng">GOALS</span><span class="nep">ध्येय</span></STRONG></a>
+    <a class="nav-link" data-toggle="tab" href="#menu2"><STRONG><span class="eng">GOALS</span><span class="nep">ध्येय</span></STRONG></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="pill" href="#menu3"><strong><span class="eng">OBJECTIVES</span><span class="nep">उद्देश्यहरु</span></strong></a>
+    <a class="nav-link" data-toggle="tab" href="#menu3"><strong><span class="eng">OBJECTIVES</span><span class="nep">उद्देश्यहरु</span></strong></a>
   </li>
 </ul>
 
@@ -38,13 +38,14 @@
 			<p><span class="eng">To contribute in building prosperous nation via prosperous local communities by providing financial intermediary.</span><span class="nep">जनताको आर्थिक गतिविधिलाई वित्तीय सहयोग गर्दै सम्वृद्घ गाउँ र  सम्वृद्घ राष्ट्र निर्माणमा योगदान गर्ने ।</span></p>
 			<br>
 			<strong><span class="eng">MISSION</span><span class="nep">लक्ष्यहरु</span></strong>
-			<P>To provide effective financial intermediary to the clients through modern banking and micro finance schemes; to instill entrepreneurship skills among the target people by integrating local and indigenous resources, culture and technologies.
-			</span><span class="nep">
-				क.जनताको वित्तीय चेतना अभिवृद्घि गर्ने, बचत गर्ने सँस्कृतिको विकास गर्ने तथा बचत गरिएको कोेषलाई उत्पादनशील क्षेत्रमा लगानी गर्ने,
-ख. भौगोलिक विशिष्टतालाई सम्बोधन गर्दै स्थानीय तथा मौलिक प्रविधि तथा स्रोहरुको संरक्षण तथा सम्वद्र्घन गर्र्नेे,
-ग. रोजगारी तथा आय आर्जनका नयाँ क्षेत्र तथा संभावनाहरुको अन्वेषण गर्दै लगानी गर्ने वातावरण निर्माणमा सहयोग गर्ने,
-घ. आम जनतामा स्वरोजगारी सिर्जनामा उत्साहित गर्दै जीवनस्तर उकास्नमा प्रयत्न गर्ने,
-ङ. मानव संसाधनलाई अधिकतम स्रोत सम्पन्न तथा जिम्मेवार बनाउन प्रयत्न गर्ने,
+			<span class="eng"><P>To provide effective financial intermediary to the clients through modern banking and micro finance schemes; to instill entrepreneurship skills among the target people by integrating local and indigenous resources, culture and technologies.</P>
+			</span><br>
+			<span class="nep">
+				क.जनताको वित्तीय चेतना अभिवृद्घि गर्ने, बचत गर्ने सँस्कृतिको विकास गर्ने तथा बचत गरिएको कोेषलाई उत्पादनशील क्षेत्रमा लगानी गर्ने,<br>
+ख. भौगोलिक विशिष्टतालाई सम्बोधन गर्दै स्थानीय तथा मौलिक प्रविधि तथा स्रोहरुको संरक्षण तथा सम्वद्र्घन गर्र्नेे,<br>
+ग. रोजगारी तथा आय आर्जनका नयाँ क्षेत्र तथा संभावनाहरुको अन्वेषण गर्दै लगानी गर्ने वातावरण निर्माणमा सहयोग गर्ने,<br>
+घ. आम जनतामा स्वरोजगारी सिर्जनामा उत्साहित गर्दै जीवनस्तर उकास्नमा प्रयत्न गर्ने,<br>
+ङ. मानव संसाधनलाई अधिकतम स्रोत सम्पन्न तथा जिम्मेवार बनाउन प्रयत्न गर्ने,<br>
 			</span> </P></div>
   <div class="tab-pane container fade" id="menu2"><p><span class="eng">To enhance financial literacy, develop saving culture and invest the savings and funds in productive sectors.
 			Playing  keyrole preserve and promote local indigenous technologies and resources by addressing the specialties in the geographical areas.
