@@ -62,7 +62,7 @@
         <a class="nav-link" href="#"><span class="eng">Notices</span> <span class="nep">सूचना</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><span class="eng">Gallery</span> <span class="nep">ग्यालरी   </span></a>
+        <a class="nav-link" href="gallery.php"><span class="eng">Gallery</span> <span class="nep">ग्यालरी   </span></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
