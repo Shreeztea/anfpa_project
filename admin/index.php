@@ -1,7 +1,7 @@
 <?php include "header.php";
 include "./db.php";
 
-// if(isset($_SESSION['username'])){
+ if(isset($_SESSION['username'])){
  ?>
 
 
@@ -21,9 +21,9 @@ include "./db.php";
 
 <?php
   include "footer.php";
-// }
+ }
 
-// else{
-//   echo "<script>window.open('login.php','_self')</script>";
-// }
+ else{
+ echo "<script>window.open('login.php','_self')</script>";
+ }
 ?>
