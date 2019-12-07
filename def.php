@@ -1,8 +1,130 @@
-<?php
-  include ('header.php');
-  include ('navbar.php');
-?>
-<div class="container-fluid">
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- For Font(fonts.google.com)-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!-- For Icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- for jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <title>Salapa Bank</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
+
+    <style type="text/css">
+    *{
+      margin:0;
+      padding: 0; 
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+      .carousel-inner img {
+        width: 100%;
+        height: 600px;
+      }
+
+      .navbar-custom { 
+          background-color: lightgreen; 
+      }
+
+      .navbar-custom .navbar-brand, 
+      .navbar-custom .navbar-text { 
+          color: green; 
+      } 
+      .nav-pills .nav-link {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: white;
+}
+/*.nav-pills .nav-link:not(.active) {
+    background-color: rgba(255, 0, 0, 0.5);
+}*/
+    </style>
+</head><body>
+<!-- <h1 class="text-center text-primary font-weight-bold ">Salapa Bikash Bank</h1> -->
+<header>
+  <section>
+    <div class="container-fluid">
+      <!-- <p class="ml-5 float-left display-5">We help to materialize your dream. We maintain your trust.</p> -->
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12 mb-4"><img src="images/salapa.jpg" class="rounded img-fluid my-1 ml-5 "></div>
+        <div class="col-lg-5 col-md-5 col-12 mb-4"></div>
+        <div class="col-lg-3 col-md-3 col-12 display-5 my-2"><i class="fas fa-globe"><span id="english"> English</span><span id="nepali"> नेपाली</span></i></div>
+      </div>     
+
+    </div>
+</section>
+
+<!-- Navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- use mr-auto to switch the navbar content to left-->
+
+    <ul class="navbar-nav mr-auto pl-5">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php"><span class="eng"> Home</span> <span class="nep"> गृह</span><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php"><span class="eng"> About Us</span> <span class="nep">हाम्रो  बारेमा</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="eng"> Deposits</span> <span class="nep">निक्षेप </span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="eng">Loan & Advances </span> <span class="nep">ऋण र प्रगति </span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="eng">Remittances</span> <span class="nep"> रेमिट्य।न्स</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="eng">Branches </span> <span class="nep">साखा</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="eng">Notices</span> <span class="nep">सूचना</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.php"><span class="eng">Gallery</span> <span class="nep">ग्यालरी   </span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- Navbar ends -->
+
 <div class="row">
 	<article class="col-md-8 col-lg-8 col-12 ml-5 my-3">
 		<div style="text-align: justify;">
@@ -19,9 +141,6 @@
   </li>
   <li class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#menu3"><strong><span class="eng">OBJECTIVES</span><span class="nep">उद्देश्यहरु</span></strong></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#menu4"><strong><span class="eng">MANAGEMENT TEAM</span><span class="nep">उद्देश्यहरु</span></strong></a>
   </li>
 </ul>
 
@@ -69,58 +188,14 @@
 ख. वित्तीय कारोबारहरुको अभिकतम सुरक्षाका लागि व्यावसायिक ढंगले साखको विश्लेषण गर्ने,
 ग. कर्मचारीहरुको क्षमता अभिवृद्घि तथा कार्यसम्पादनको स्तर उकास्न नियमित तालिम तथा विकासका कार्यक्रमहरु सञ्चालन गर्ने,
 घ. स्थानीय निकायहरुसँग समन्वय गर्दै संस्थागत सामाजिक उत्तरदायित्व सम्बन्धि कार्यक्रमहरु आयोजना गर्ने,
-ङ. बैंकका सबैखाले सरोकारवालाहरुसँग सन्तुल न कायम राख्ने,
+ङ. बैंकका सबैखाले सरोकारवालाहरुसँग सन्तुलन कायम राख्ने,
 च. नेपाल राष्ट्र बैंक लगायत अन्य नियमनकारी निकायहरुका निर्देशन तथा मार्ग दर्शनहरुको पूर्ण पालना गर्ने,
 			</span>
 			</P></div>
-			<div class="tab-pane container fade" id="menu4"><p><span class="eng">
-				<section>
-<div class="credit-section" id="services">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="section-title">Board Of Directors</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/ime.png" width="207" height="208" class="img-responsive" alt=""></a>
-                        <h2>Mr.Tanka Rai</h2>
-                        <p>Chairperson</p>
-                    </div>
-                    <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/prabhu.png" class="img-responsive" alt=""></a>
-                        <h2>Mr.Lava Kumar Rai</h2>
-                        <p>Director</p>
-                        </div>
-                    <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/himal.jpg" width="207" height="208" class="img-responsive" alt=""></a>
-                        <h2>Mr.Harindra Prasad Rai</h2>
-                        <p>Director</p>
-                    </div>
-                    <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/muktinath.png" width="207" height="208" class="img-responsive" alt=""></a>
-                        <h2>Mr.Sharan Kumar Rai</h2>
-                        <p>Director</p>
-                    </div>
-                    <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/western.jpg" width="207" height="208" class="img-responsive" alt=""></a>
-                        <h2>Mr.Chandra Bahadur Khadka</h2>
-                        <p>Director</p>
-                    </div>
-                    <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/best.jpg" width="207" height="208" class="img-responsive" alt=""></a>
-                        <h2>Mr.Ishwor Man Rai</h2>
-                        <p>Chief Executive Oficer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-			</span><span class="nep"> स्थानीय तथा मौलिक स्रोत, सँस्कृति र प्रविधिलाई एकिकृत गर्दै आधुनिक बैंकिङ तथा लघुवित्त योजनाहरुका माध्यमबाट ग्राहकहरुलाई प्रभावकारी वित्तीय मध्यस्थता प्रदान गर्ने ।</span>
-			</p></div>
 </div>
 		
-</div>
+		
+	
 
 		
 			
@@ -137,6 +212,36 @@
 	
 </div>
 
-<?php
-  include ('footer.php');
-?>
+<!-- footer -->
+ <footer>
+      <p class="text-center bg-dark text-white mb-0">© 2019 Vision Nepal, All rights reserved </p>
+ </footer>
+ <!-- footer end -->
+
+<script>
+$( "#english" ).hide();
+$(".nep").hide();
+$( "#english" ).click(function( event ) {
+  event.preventDefault();
+  $( this ).hide();
+  $(".nep").hide();
+  $(".eng").show();
+  $("#nepali").show();
+});
+
+$( "#nepali" ).click(function( event ) {
+  event.preventDefault();
+  $( this ).hide();
+  $(".eng").hide();
+  $(".nep").show();
+  $("#english").show();
+});
+</script>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
