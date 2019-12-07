@@ -45,7 +45,7 @@
                     $newsId= $row_news['newsId'];
                     $news_title= $row_news['news_title']; 
                     $nep_title= $row_news['nep_title']; ?>
-                <a class="dropdown-item" href="#"><span class="eng"><?php echo $news_title; ?></span>
+                <a class="dropdown-item" href="deposits.php?id=<?php echo $newsId ?>"><span class="eng"><?php echo $news_title; ?></span>
                   <span class="nep"><?php echo $nep_title; ?></span>
                 </a>
                 <?php } ?>
