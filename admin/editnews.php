@@ -12,21 +12,20 @@ if (isset($_POST['submit'])) {
 
     $news_title= $_POST['news_title'];
     $news_article= $_POST['news_article'];
+    $nep_title= $_POST['nep_title'];
+    $nep_article= $_POST['nep_article'];
     $publish= $_POST['publish'];
+  
 
-//   // $about_image = $_FILES['about_image']['name'];
-//  //    $about_image_tmp = $_FILES['about_image']['tmp_name'];
-//  //    move_uploaded_file($about_image_tmp, "img/$about_image");
+    $query = "UPDATE `news` SET `news_title` = '$news_title', `news_article` = '$news_article', `nep_title` = '$nep_title', `nep_article` = '$nep_article', `publish` = '$publish' WHERE `news`.`newsId` = $newsId";
+    mysqli_query ($con,"set character_set_client='utf8'"); 
+ mysqli_query ($con,"set character_set_results='utf8'"); 
 
-    
-
-      // $query = "INSERT INTO news (news_title, news_article, publish) VALUES ('$news_title', '$news_article' ,'$publish')";
-
-    $query = "UPDATE `news` SET `news_title` = '$news_title', `news_article` = '$news_article', `publish` = '$publish' WHERE `news`.`newsId` = $newsId";
+ mysqli_query ($con,"set collation_connection='utf8_general_ci'"); 
 
     if ($result=mysqli_query($con,$query)) {
 
-         echo "<script>alert('news article has been updated!')</script>";
+         echo "<script>alert('updated!')</script>";
         echo "<script>window.open('news.php','_self')</script>";
 
     }
@@ -65,25 +64,37 @@ if (isset($_POST['submit'])) {
         <div class="container-fluid">
           <div class="card">
             <div class="card-header card-header-success">
-              <h4 class="card-title">Add New News</h4>
+              <h4 class="card-title">Add Deposit Sub-Category</h4>
             </div>
             <div class="card-body">
               <form action="editnews.php?newsId=<?php echo $newsId;?>" method="post" enctype="multipart/form-data">
                 
                 <div class="form-group">
-                    <label for="">News Title</label>
+                    <label for="">Category</label>
                     <input type="text" class="form-control" name="news_title" value="<?php echo $row['news_title'];?>" required>
                 </div>
                 <div class="form-group">
-                  <label for="">News Article</label>
-                  <!-- <textarea name="news_article" id="myeditor"> -->
-                      <textarea class="form-control" name="news_article" rows="5" id="myeditor"><?php echo $row['news_article'];?></textarea>          
+                    <label for="">Nepali Category</label>
+                    <input type="text" class="form-control" name="nep_title" value="<?php echo $row['nep_title'];?>" required>
+                </div>
+                <div class="form-group">
+                  <label for="">Description</label>
+                      <textarea class="form-control" name="news_article" rows="5" id="myeditor"><?php echo $row['news_article']; ?></textarea>          
                        </textarea>
                        <script>
                        CKEDITOR.replace('myeditor');
                        </script>
                   
                 </div>
+                <div class="form-group">
+                    <label for="">Description</label>
+                        <textarea class="form-control" name="nep_article" rows="5" id="myeditor"><?php echo $row['nep_article']; ?></textarea>          
+                         </textarea>
+                         <script>
+                         CKEDITOR.replace('myeditor');
+                         </script>
+                    
+                  </div>
 
                <div class="form-group">
                 <label for="">Publish?</label>
@@ -109,11 +120,6 @@ if (isset($_POST['submit'])) {
               </div>
                 <br>
                 <button type="submit" name="submit" class="btn btn-success">Save Changes</button>
-                
-             
-
-                
-
               </form>
             </div>
             </div>

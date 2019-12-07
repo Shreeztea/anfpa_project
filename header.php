@@ -16,16 +16,22 @@
 
     <!-- for jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
 
     <title>Salapa Bank</title>
 
     <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
 
+    <!-- lightbox plugin -->
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <!-- <script type="text/javascript" href="lightbox-plus-jquery.min.js"></script>
+ -->
     <style type="text/css">
     *{
       margin:0;
       padding: 0; 
-      font-family: 'Josefin Sans', sans-serif;
+      /* font-family: 'Josefin Sans', sans-serif; */ 
     }
 
       .carousel-inner img {
@@ -44,7 +50,17 @@
       .nav-pills .nav-link {
     background-color: rgba(255, 0, 0, 0.2);
     color: white;
-}
+      }
+    .gallery img{
+   
+        transition:1s;
+     }
+
+     .gallery img:hover{
+  
+         transform:scale(1.1);
+     }
+
 /*.nav-pills .nav-link:not(.active) {
     background-color: rgba(255, 0, 0, 0.5);
 }*/

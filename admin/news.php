@@ -19,7 +19,7 @@ include "./db.php";
           </div>
           <div class="card-body">
             <a href="newnews.php">
-              <button class="btn btn-primary"><i class="material-icons">add</i> Add New</button>
+              <button class="btn btn-primary"><i class="material-icons">add</i> Add Deposits Category</button>
             </a>
            
             <br><br>
@@ -27,8 +27,10 @@ include "./db.php";
              <table class="table table-striped table-bordered" style="padding: 20px 20px">
               <thead class="text-primary">
                 <th>S. No.</th>
-                <th>News Title</th>
-                <th>News Article</th>
+                <th>Category</th>
+                <th>समूह</th>
+                <th>Description</th>
+                <th>वर्णन</th>
                 <th>Publish Status</th>
                 <th>Actions</th>
               </thead>
@@ -56,6 +58,8 @@ include "./db.php";
                               $newsId= $row_news['newsId'];
                               $news_title= $row_news['news_title'];
                               $news_article= $row_news['news_article'];
+                              $nep_title= $row_news['nep_title'];
+                              $nep_article= $row_news['nep_article'];
                               $publish= $row_news['publish'];
                               
                               ?>
@@ -63,7 +67,9 @@ include "./db.php";
                 <tr>
                   <td><?php echo $no++; ?></td>
                   <td><?php echo $news_title; ?></td>
+                  <td><?php echo $nep_title; ?></td>
                   <td><?php echo $news_article; ?></td>
+                  <td><?php echo $nep_article; ?></td>
                   
                  <!--  <td>
                    

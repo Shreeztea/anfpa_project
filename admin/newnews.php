@@ -1,25 +1,15 @@
 <?php 
 include "./db.php";
 
-// $sel_result = mysqli_query($con,"SELECT * FROM information WHERE id=1");
-// $row = mysqli_fetch_assoc($sel_result);
-
-
 if (isset($_POST['submit'])) {
 
     $news_title= $_POST['news_title'];
     $news_article= $_POST['news_article'];
-    $publish= $_POST['publish'];
+    $nep_title= $_POST['nep_title'];
+    $nep_article= $_POST['nep_article'];
+    $publish= $_POST['publish'];    
 
-//   // $about_image = $_FILES['about_image']['name'];
-//  //    $about_image_tmp = $_FILES['about_image']['tmp_name'];
-//  //    move_uploaded_file($about_image_tmp, "img/$about_image");
-
-    
-
-      $query = "INSERT INTO news (news_title, news_article, publish) VALUES ('$news_title', '$news_article' ,'$publish')";
-
-//     $query = "UPDATE `information` SET `privacy_policy` = '$privacy_policy' WHERE `information`.`id` = 1";
+     $query = "INSERT INTO news (news_title, nep_title, news_article, nep_article, publish) VALUES ('$news_title', '$nep_title', '$news_article', '$nep_article', '$publish')";
 
     if ($result=mysqli_query($con,$query)) {
 
@@ -28,7 +18,10 @@ if (isset($_POST['submit'])) {
 
     }
     else{
-         echo "<script>alert('error')</script>";
+          echo $query;
+          echo mysqli_query($con,$query);
+          die();
+         echo "<script>alert($result)</script>";
         
 
     }
@@ -68,19 +61,31 @@ if (isset($_POST['submit'])) {
               <form action="newnews.php" method="post" enctype="multipart/form-data">
                 
                 <div class="form-group">
-                    <label for="">News Title</label>
+                    <label for="">Category</label>
                     <input type="text" class="form-control" name="news_title" required>
                 </div>
                 <div class="form-group">
-                  <label for="">News Article</label>
+                    <label for="">Nepali Category</label>
+                    <input type="text" class="form-control" name="nep_title" required>
+                </div>
+                <div class="form-group">
+                  <label for="">Description</label>
                   <textarea name="news_article" id="myeditor">
                                 
                        </textarea>
                        <script>
                        CKEDITOR.replace('myeditor');
                        </script>
-                  <!-- <textarea class="form-control" name="privacy_policy" rows="5"><?php echo $row['privacy_policy'];?></textarea> -->
                 </div>
+                <div class="form-group">
+                    <label for="">Nepali Description</label>
+                    <textarea name="nep_article" id="myeditor">
+                                  
+                         </textarea>
+                         <script>
+                         CKEDITOR.replace('myeditor');
+                         </script>
+                  </div>
 
                <div class="form-group">
                 <label for="">Publish?</label>
