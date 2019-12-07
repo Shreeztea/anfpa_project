@@ -5,7 +5,7 @@
 <div class="container-fluid">
 <div class="row">
 	<article class="col-md-10 mx-5 my-3">
-		<h2><span class="eng">Remittance</span><span class="nep">रेमिट्य।न्स</h2></span>
+		<h2><span class="eng">Remittance</span><span class="nep"> पिरचय</h2></span>
 		<p class="user-content" style="text-align: justify;">
 		<span class="eng">
 			Salapa Bikas Bank has been providing agency function for remittance resvice from the inception. The bank has obtained agency of the following remit companies and the clients can receive money domestic as well as international remittance and send domestic remittance to the relatives and friends  
