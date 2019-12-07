@@ -16,12 +16,13 @@ if (isset($_GET['id'])) {
     $news_article= $row_news['news_article']; 
     $nep_article= $row_news['nep_article'];?>
     <div class="container">
-            <?php
-                echo $news_article;
-            }
-    ?>
-
-    </div>
+            <span class="eng"><?php echo $news_article; ?></span>
+            <span class="nep"><?php echo $nep_article; ?></span>
+                
+                <?php }
+        ?>
+    
+        </div>
 
 <?php
 include ('footer.php');
