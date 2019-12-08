@@ -1,3 +1,6 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
 .credit-section {
     text-align: center;
 }
@@ -296,4 +299,27 @@
 }
 .img-box:after,.img-box ul, .img-box ul li{
 	transition: all 0.5s ease-in-out 0s;
+}
+@media (min-width: 576px) {
+  .container-fluid {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1140px;
+  }
 }

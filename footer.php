@@ -20,8 +20,8 @@
                 </div>
                 <div class="col-md-4">
                           <h1 class="text-uppercase">Salapa Bikas Bank</h1>
-                  <p>Opens 7 days a week</p>
-                  <p>Service from 8 am to 8 pm</p>
+                  <p>Opens 6 days a week</p>
+                  <p>Service from 10 am to 5 pm</p>
                 </div>
                   </div>
               </div>
@@ -49,6 +49,24 @@
    });
    
    </script>
+   <!--  <script> 
+        $( '.collaspe .navbar-nav a' ).on( 'click', function () {
+  $( '.collaspe .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+  $( this ).parent( 'li' ).addClass( 'active' );
+}); 
+    </script>  -->
+ <!--   <script>
+$(document).ready(function(){
+        $('.pl-5 li').click(function(e) {
+        $('.pl-5 li.active').removeClass('active');
+        var $this = $(this);
+        if (!$this.hasClass('active')) {
+            $this.addClass('active');
+        }
+        e.preventDefault();
+        });
+});
+</script> -->
    <!-- Optional JavaScript -->
        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      

@@ -5,9 +5,9 @@
         <div class="container-fluid">
           <!-- <p class="ml-5 float-left display-5">We help to materialize your dream. We maintain your trust.</p> -->
           <div class="row">
-            <div class="col-lg-4 col-md-4 col-12 mb-4"><img src="images/salapa.jpg" class="rounded img-fluid my-1 ml-5 "></div>
-            <div class="col-lg-5 col-md-5 col-12 mb-4"></div>
-            <div class="col-lg-3 col-md-3 col-12 display-5 my-2"><i class="fas fa-globe"><span id="english"> English</span><span id="nepali"> नेपाली</span></i></div>
+            <div class="col-lg-10"><img src="images/salapa.jpg" class="rounded img-fluid my-1 ml-5 "></div>
+            <!-- <div class="col-lg-5 col-md-5 col-12 mb-4"></div> -->
+            <div class="col-lg-2 mt-5 my-2"><i class="fas fa-globe"><span id="english"> English</span><span id="nepali"> नेपाली</span></i></div>
           </div>     
     
         </div>
@@ -24,7 +24,7 @@
         <!-- use mr-auto to switch the navbar content to left-->
     
         <ul class="navbar-nav mr-auto pl-5">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.php"><span class="eng"> Home</span> <span class="nep"> गृह</span><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
