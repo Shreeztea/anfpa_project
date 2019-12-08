@@ -17,12 +17,12 @@
           <p>Dashboard</p>
         </a>
       </li> -->
-      <!-- <li class="nav-item ">
-        <a class="nav-link" href="./orders.php">
+      <li class="nav-item ">
+        <a class="nav-link" href="loan.php">
           <i class="material-icons">person</i>
-          <p>Orders</p>
+          <p>Loan</p>
         </a>
-      </li> -->
+      </li>
     
      <!--  <li class="nav-item ">
         <a class="nav-link" href="./customers.php">
@@ -56,9 +56,9 @@
       </li>
 
         <li class="nav-item ">
-        <a class="nav-link" href="./contact_us.php">
-          <i class="material-icons">chat_bubble</i>
-          <p>Contact us</p>
+        <a class="nav-link" href="notice.php">
+          <i class="material-icons">N</i>
+          <p>Notice</p>
         </a>
       </li>
 

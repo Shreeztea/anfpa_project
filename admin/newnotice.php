@@ -1,12 +1,5 @@
 <?php 
 include "./db.php";
-if (isset($_GET['newsId'])) {
-  $newsId = $_GET['newsId'];
-  $sel_result = mysqli_query($con,"SELECT * FROM news WHERE newsId= $newsId");
-  $row = mysqli_fetch_assoc($sel_result);
-}
-
-
 
 if (isset($_POST['submit'])) {
 
@@ -14,23 +7,25 @@ if (isset($_POST['submit'])) {
     $news_article= $_POST['news_article'];
     $nep_title= $_POST['nep_title'];
     $nep_article= $_POST['nep_article'];
-    $publish= $_POST['publish'];
-  
+    $publish= $_POST['publish'];    
 
-    $query = "UPDATE `news` SET `news_title` = '$news_title', `news_article` = '$news_article', `nep_title` = '$nep_title', `nep_article` = '$nep_article', `publish` = '$publish' WHERE `news`.`newsId` = $newsId";
-    mysqli_query ($con,"set character_set_client='utf8'"); 
- mysqli_query ($con,"set character_set_results='utf8'"); 
+    $pic = $_FILES['pic']['name'];
+    $pic_tmp = $_FILES['pic']['tmp_name'];
+    move_uploaded_file($pic_tmp, "img/$pic");
 
- mysqli_query ($con,"set collation_connection='utf8_general_ci'"); 
+     $query = "INSERT INTO notice (title, nep_title, article, nep_article , doc, publish) VALUES ('$news_title', '$nep_title', '$news_article', '$nep_article', '$pic', '$publish')";
 
     if ($result=mysqli_query($con,$query)) {
 
-         echo "<script>alert('updated!')</script>";
-        echo "<script>window.open('news.php','_self')</script>";
+         echo "<script>alert('news article has been inserted!')</script>";
+          echo "<script>window.open('notice.php','_self')</script>";
 
     }
     else{
-         echo "<script>alert('error')</script>";
+          echo $query;
+          echo mysqli_query($con,$query);
+          die();
+         echo "<script>alert($result)</script>";
         
 
     }
@@ -64,38 +59,51 @@ if (isset($_POST['submit'])) {
         <div class="container-fluid">
           <div class="card">
             <div class="card-header card-header-success">
-              <h4 class="card-title">Add Deposit Sub-Category</h4>
+              <h4 class="card-title">Add Notice</h4>
             </div>
             <div class="card-body">
-              <form action="editnews.php?newsId=<?php echo $newsId;?>" method="post" enctype="multipart/form-data">
+              <form action="newnotice.php" method="post" enctype="multipart/form-data">
                 
                 <div class="form-group">
-                    <label for="">Category</label>
-                    <input type="text" class="form-control" name="news_title" value="<?php echo $row['news_title'];?>" required>
+                    <label for="">Title</label>
+                    <input type="text" class="form-control" name="news_title" required>
                 </div>
                 <div class="form-group">
-                    <label for="">Nepali Category</label>
-                    <input type="text" class="form-control" name="nep_title" value="<?php echo $row['nep_title'];?>" required>
+                    <label for="">Nepali Title</label>
+                    <input type="text" class="form-control" name="nep_title" required>
                 </div>
                 <div class="form-group">
                   <label for="">Description</label>
-                      <textarea class="form-control" name="news_article" rows="5" id="myeditor"><?php echo $row['news_article']; ?></textarea>          
+                  <textarea name="news_article" id="myeditor">
+                                
                        </textarea>
                        <script>
                        CKEDITOR.replace('myeditor');
                        </script>
-                  
                 </div>
                 <div class="form-group">
-                    <label for="">Description</label>
-                        <textarea class="form-control" name="nep_article" rows="5" id="myedit"><?php echo $row['nep_article']; ?></textarea>          
+                    <label for="">Nepali Description</label>
+                    <textarea name="nep_article" id="myedit">
+                                  
                          </textarea>
                          <script>
                          CKEDITOR.replace('myedit');
                          </script>
-                    
                   </div>
 
+                  <!-- Select primary image -->
+              <div id="main-image-button" class="btn btn-rose btn-file">
+                    <span class="fileinput-new">Select File</span>
+                    <input type="file" name="pic" onchange="preview_image(this.files, 'imgid1')"/>
+                  </div>
+                  <div id="imgid1"></div>
+                  
+                
+    
+                
+                  <br><br>      
+    
+    
                <div class="form-group">
                 <label for="">Publish?</label>
                 <div class="form-check form-check-radio">
@@ -120,6 +128,11 @@ if (isset($_POST['submit'])) {
               </div>
                 <br>
                 <button type="submit" name="submit" class="btn btn-success">Save Changes</button>
+                
+             
+
+                
+
               </form>
             </div>
             </div>

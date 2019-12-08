@@ -1,15 +1,19 @@
 <?php 
 include "./db.php";
-if (isset($_GET['newsId'])) {
-  $newsId = $_GET['newsId'];
-  $sel_result = mysqli_query($con,"SELECT * FROM news WHERE newsId= $newsId");
+if (isset($_GET['loanId'])) {
+  $newsId = $_GET['loanId'];
+  $sel_result = mysqli_query($con,"SELECT * FROM loan WHERE id= $newsId");
   $row = mysqli_fetch_assoc($sel_result);
 }
 
 
 
 if (isset($_POST['submit'])) {
-
+    if (isset($_GET['loanId'])) {
+    $newsId = $_GET['loanId'];}
+    else{
+        echo "de";die();
+    }
     $news_title= $_POST['news_title'];
     $news_article= $_POST['news_article'];
     $nep_title= $_POST['nep_title'];
@@ -17,16 +21,13 @@ if (isset($_POST['submit'])) {
     $publish= $_POST['publish'];
   
 
-    $query = "UPDATE `news` SET `news_title` = '$news_title', `news_article` = '$news_article', `nep_title` = '$nep_title', `nep_article` = '$nep_article', `publish` = '$publish' WHERE `news`.`newsId` = $newsId";
-    mysqli_query ($con,"set character_set_client='utf8'"); 
- mysqli_query ($con,"set character_set_results='utf8'"); 
+    $query = "UPDATE `loan` SET `title` = '$news_title', `article` = '$news_article', `nep_title` = '$nep_title', `nep_article` = '$nep_article', `publish` = '$publish' WHERE `loan`.`id` = '$newsId'";
 
- mysqli_query ($con,"set collation_connection='utf8_general_ci'"); 
 
     if ($result=mysqli_query($con,$query)) {
 
          echo "<script>alert('updated!')</script>";
-        echo "<script>window.open('news.php','_self')</script>";
+        echo "<script>window.open('loan.php','_self')</script>";
 
     }
     else{
@@ -67,11 +68,11 @@ if (isset($_POST['submit'])) {
               <h4 class="card-title">Add Deposit Sub-Category</h4>
             </div>
             <div class="card-body">
-              <form action="editnews.php?newsId=<?php echo $newsId;?>" method="post" enctype="multipart/form-data">
+              <form action="editloan.php?loanId=<?php echo $newsId;?>" method="post" enctype="multipart/form-data">
                 
                 <div class="form-group">
                     <label for="">Category</label>
-                    <input type="text" class="form-control" name="news_title" value="<?php echo $row['news_title'];?>" required>
+                    <input type="text" class="form-control" name="news_title" value="<?php echo $row['title'];?>" required>
                 </div>
                 <div class="form-group">
                     <label for="">Nepali Category</label>
@@ -79,7 +80,7 @@ if (isset($_POST['submit'])) {
                 </div>
                 <div class="form-group">
                   <label for="">Description</label>
-                      <textarea class="form-control" name="news_article" rows="5" id="myeditor"><?php echo $row['news_article']; ?></textarea>          
+                      <textarea class="form-control" name="news_article" rows="5" id="myeditor"><?php echo $row['article']; ?></textarea>          
                        </textarea>
                        <script>
                        CKEDITOR.replace('myeditor');
@@ -88,10 +89,10 @@ if (isset($_POST['submit'])) {
                 </div>
                 <div class="form-group">
                     <label for="">Description</label>
-                        <textarea class="form-control" name="nep_article" rows="5" id="myedit"><?php echo $row['nep_article']; ?></textarea>          
+                        <textarea class="form-control" name="nep_article" rows="5" id="myedito"><?php echo $row['nep_article']; ?></textarea>          
                          </textarea>
                          <script>
-                         CKEDITOR.replace('myedit');
+                         CKEDITOR.replace('myedito');
                          </script>
                     
                   </div>

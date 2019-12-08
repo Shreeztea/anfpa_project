@@ -7,7 +7,8 @@
           <div class="row">
             <div class="col-lg-10"><img src="images/salapa.jpg" class="rounded img-fluid my-1 ml-5 "></div>
             <!-- <div class="col-lg-5 col-md-5 col-12 mb-4"></div> -->
-            <div class="col-lg-2 mt-5 my-2"><i class="fas fa-globe"><span id="english"> English</span><span id="nepali"> नेपाली</span></i></div>
+            <div class="col-lg-2 mt-5 my-2" onclick="clickCounter()"><i class="fas fa-globe"><span id="english"> English</span><span id="nepali"> नेपाली</span></i></div>
+
           </div>     
     
         </div>
@@ -59,6 +60,18 @@
               <a class="dropdown-item" href="agriculture.php">Agriculture loan</a>
               <a class="dropdown-item" href="#">Consumer loan</a>
               <a class="dropdown-item" href="#">Deprived Sector Loan</a>
+              <?php 
+                
+                $get_news = "SELECT * FROM loan order by id";
+                $run_news = mysqli_query($con, $get_news);
+                while ($row_news=mysqli_fetch_array($run_news)) {
+                    $id= $row_news['id'];
+                    $title= $row_news['title']; 
+                    $nep_title= $row_news['nep_title']; ?>
+                <a class="dropdown-item" href="loan.php?id=<?php echo $id ?>"><span class="eng"><?php echo $title; ?></span>
+                  <span class="nep"><?php echo $nep_title; ?></span>
+                </a>
+                <?php } ?>
             </div>
           </li>
           <li class="nav-item">

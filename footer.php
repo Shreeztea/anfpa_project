@@ -30,23 +30,61 @@
    </footer>
    <!-- footer end -->
   <script>
-   $( "#english" ).hide();
-   $(".nep").hide();
-   $( "#english" ).click(function( event ) {
-     event.preventDefault();
-     $( this ).hide();
-     $(".nep").hide();
-     $(".eng").show();
-     $("#nepali").show();
-   });
+    function clickCounter() {
+  if(typeof(Storage) !== "undefined") {
+    if (sessionStorage.lang ) {
+      if(sessionStorage.lang == 'english'){
+        sessionStorage.lang = 'nepali';
+        console.log(sessionStorage.lang);
+        location.reload();
+        // $( "#english" ).hide();
+        // $(".nep").hide();
+        // $( "#nepali" ).show();
+        // $(".eng").show();
+      }
+      else{
+        sessionStorage.lang = 'english';
+        console.log(sessionStorage.lang);
+        location.reload();
+        // $( "#nepali" ).hide();
+        // $(".eng").hide();
+        // $( "#english" ).show();
+        // $(".nep").show();
+      }
+    } else {
+      sessionStorage.lang = 'english';
+      console.log(sessionStorage.lang);
+      location.reload();
+    }
+  }
+    }
+  if(sessionStorage.lang){
+    if(sessionStorage.lang == 'english'){
+        // sessionStorage.lang = 'nepali';
+        // console.log(sessionStorage.lang);
+        $( "#english" ).hide();
+        $(".nep").hide();
+        $( "#nepali" ).show();
+        $(".eng").show();
+      }
+      else{
+        // sessionStorage.lang = 'english';
+        // console.log(sessionStorage.lang);
+        $( "#nepali" ).hide();
+        $(".eng").hide();
+        $( "#english" ).show();
+        $(".nep").show();
+        
+      }
+
+    }else{
+          sessionStorage.lang = 'english';
+          $( "#english" ).hide();
+          $(".nep").hide();
+          $( "#nepali" ).show();
+          $(".eng").show();
    
-   $( "#nepali" ).click(function( event ) {
-     event.preventDefault();
-     $( this ).hide();
-     $(".eng").hide();
-     $(".nep").show();
-     $("#english").show();
-   });
+    }
    
    </script>
    <!--  <script> 

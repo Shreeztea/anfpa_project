@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
         <div class="container-fluid">
           <div class="card">
             <div class="card-header card-header-success">
-              <h4 class="card-title">Add New News</h4>
+              <h4 class="card-title">Add New Deposits</h4>
             </div>
             <div class="card-body">
               <form action="newnews.php" method="post" enctype="multipart/form-data">

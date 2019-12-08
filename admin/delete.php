@@ -69,4 +69,35 @@ if(isset($_GET['gallery_id'])){
 	}
 }
 
+if(isset($_GET['nid'])){
+	$id = $_GET['nid'];
+	$DelSql = "DELETE FROM `notice` WHERE id=$id";
+	$res = mysqli_query($con, $DelSql);
+	
+
+	if($res){
+		 echo "<script>alert('Notice Deleted successfully')</script>";
+          echo "<script>window.open('notice.php','_self')</script>";
+	}else{
+		echo "<script>alert('error deleting')</script>";
+	}
+}
+
+if(isset($_GET['loanId'])){
+
+
+
+	$id = $_GET['loanId'];
+	$DelSql = "DELETE FROM `loan` WHERE id=$id";
+	$res = mysqli_query($con, $DelSql);
+	
+
+	if($res){
+		 echo "<script>alert('Loan Category Deleted successfully')</script>";
+          echo "<script>window.open('loan.php','_self')</script>";
+	}else{
+		echo "<script>alert('error deleting')</script>";
+	}
+}
+
 ?>
