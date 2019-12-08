@@ -7,7 +7,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-4 col-12 mb-4"><img src="images/salapa.jpg" class="rounded img-fluid my-1 ml-5 "></div>
             <div class="col-lg-5 col-md-5 col-12 mb-4"></div>
-            <div class="col-lg-3 col-md-3 col-12 display-5 my-2"><i class="fas fa-globe"><span id="english"> English</span><span id="nepali"> नेपाली</span></i></div>
+            <div class="col-lg-3 col-md-3 col-12 display-5 my-2" onclick="clickCounter()"><i class="fas fa-globe"><span id="english"> English</span><span id="nepali"> नेपाली</span></i></div>
           </div>     
     
         </div>

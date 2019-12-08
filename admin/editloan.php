@@ -89,10 +89,10 @@ if (isset($_POST['submit'])) {
                 </div>
                 <div class="form-group">
                     <label for="">Description</label>
-                        <textarea class="form-control" name="nep_article" rows="5" id="myeditor"><?php echo $row['nep_article']; ?></textarea>          
+                        <textarea class="form-control" name="nep_article" rows="5" id="myedito"><?php echo $row['nep_article']; ?></textarea>          
                          </textarea>
                          <script>
-                         CKEDITOR.replace('myeditor');
+                         CKEDITOR.replace('myedito');
                          </script>
                     
                   </div>

@@ -87,8 +87,8 @@ if(isset($_GET['loanId'])){
 
 
 
-	$id = $_GET['nid'];
-	$DelSql = "DELETE FROM `loanId` WHERE id=$id";
+	$id = $_GET['loanId'];
+	$DelSql = "DELETE FROM `loan` WHERE id=$id";
 	$res = mysqli_query($con, $DelSql);
 	
 
