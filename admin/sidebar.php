@@ -19,8 +19,8 @@
       </li> -->
       <li class="nav-item ">
         <a class="nav-link" href="loan.php">
-          <i class="material-icons">person</i>
-          <p>Loan</p>
+          <i class="material-icons">L</i>
+          <p>Loan Category</p>
         </a>
       </li>
     
@@ -30,16 +30,16 @@
           <p>Customers</p>
         </a>
       </li> -->
-      <li class="nav-item ">
+      <!-- <li class="nav-item ">
         <a class="nav-link" href="./communities.php">
           <i class="material-icons">people</i>
           <p>Communities</p>
         </a>
-      </li>
+      </li> -->
       <li class="nav-item ">
         <a class="nav-link" href="./news.php">
           <i class="material-icons">view_module</i>
-          <p>News</p>
+          <p>Deposit Category</p>
         </a>
       </li>
       <!-- <li class="nav-item ">
@@ -62,12 +62,12 @@
         </a>
       </li>
 
-      <li class="nav-item ">
+      <!-- <li class="nav-item ">
         <a class="nav-link" href="./pages.php">
           <i class="material-icons">pages</i>
           <p>Pages and info</p>
         </a>
-      </li>
+      </li> -->
     <!--   <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" data-target="#newsletter-dd" href="#">
           <i class="material-icons">email</i>

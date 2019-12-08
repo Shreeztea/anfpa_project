@@ -6,7 +6,7 @@
 <div class="container-fluid">
 <div class="row">
 	<article class="col-md-10 ml-5 my-3">
-			<h1 class="text-center pt-5"><span class="eng">notice</span><span class="nep">नाेतीस</span></h1>
+			<h1 class="text-center pt-5"><span class="eng">notice</span><span class="nep">सूचना</span></h1>
 			<hr class="w-25 mx-auto pt-5">
 		<p class="user-content" style="text-align: justify;">
 			<span class="eng">
@@ -26,7 +26,7 @@
 							<div class="card bg-danger text-light">
 							  <div class="card-body text-center">
 									<h4 class="card-title"><span class="eng"><?php echo $news_title; ?></span><span class="nep"><?php echo $nep_title; ?></span></h4>
-									<p class="card-text"><span class="eng"><?php echo $news_article; ?></span><span class="nep"><?php echo $nep_article; ?></span></p>
+									<h5 class="card-text"><span class="eng"><?php echo $news_article; ?></span><span class="nep"><?php echo $nep_article; ?></span></h5>
 									<a href="admin/img/<?php echo $doc; ?>" class="btn btn-outline-warning" target="_blank">See More</a>
 							  </div>
 							</div>

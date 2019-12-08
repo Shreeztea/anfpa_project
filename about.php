@@ -21,7 +21,7 @@
     <a class="nav-link" data-toggle="tab" href="#menu3"><strong><span class="eng">OBJECTIVES</span><span class="nep">उद्देश्यहरु</span></strong></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#menu4"><strong><span class="eng">MANAGEMENT TEAM</span><span class="nep">उद्देश्यहरु</span></strong></a>
+    <a class="nav-link" data-toggle="tab" href="#menu4"><strong><span class="eng">MANAGEMENT TEAM</span><span class="nep">व्यवस्थापन समिती</span></strong></a>
   </li>
 </ul>
 
@@ -79,44 +79,45 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="section-title">Board Of Directors</h2>
+                        <h3 class="section-title"><span class="eng">Board of Directors</span> <span class="nep">व्यवस्थापन समिती</span></h3>
                     </div>
                 </div>
+                <br><BR>
                 <div class="row">
                     <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/ime.png" width="207" height="208" class="img-responsive" alt=""></a>
+                        <!-- <a href="#"><img src="images/ime.png" width="207" height="208" class="img-responsive" alt=""></a> -->
                         <h2>Mr.Tanka Rai</h2>
                         <p>Chairperson</p>
                     </div>
                     <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/prabhu.png" class="img-responsive" alt=""></a>
+                        <!-- <a href="#"><img src="images/prabhu.png" class="img-responsive" alt=""></a> -->
                         <h2>Mr.Lava Kumar Rai</h2>
                         <p>Director</p>
                         </div>
                     <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/himal.jpg" width="207" height="208" class="img-responsive" alt=""></a>
+                        <!-- <a href="#"><img src="images/himal.jpg" width="207" height="208" class="img-responsive" alt=""></a> -->
                         <h2>Mr.Harindra Prasad Rai</h2>
                         <p>Director</p>
                     </div>
                     <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/muktinath.png" width="207" height="208" class="img-responsive" alt=""></a>
+                        <!-- <a href="#"><img src="images/muktinath.png" width="207" height="208" class="img-responsive" alt=""></a> -->
                         <h2>Mr.Sharan Kumar Rai</h2>
                         <p>Director</p>
                     </div>
                     <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/western.jpg" width="207" height="208" class="img-responsive" alt=""></a>
+                        <!-- <a href="#"><img src="images/western.jpg" width="207" height="208" class="img-responsive" alt=""></a> -->
                         <h2>Mr.Chandra Bahadur Khadka</h2>
                         <p>Director</p>
                     </div>
                     <div class="col-md-3 credit-item">
-                        <a href="#"><img src="images/best.jpg" width="207" height="208" class="img-responsive" alt=""></a>
+                        <!-- <a href="#"><img src="images/best.jpg" width="207" height="208" class="img-responsive" alt=""></a> -->
                         <h2>Mr.Ishwor Man Rai</h2>
                         <p>Chief Executive Oficer</p>
                     </div>
                 </div>
             </div>
         </div>
-			</span><span class="nep"> स्थानीय तथा मौलिक स्रोत, सँस्कृति र प्रविधिलाई एकिकृत गर्दै आधुनिक बैंकिङ तथा लघुवित्त योजनाहरुका माध्यमबाट ग्राहकहरुलाई प्रभावकारी वित्तीय मध्यस्थता प्रदान गर्ने ।</span>
+			<!-- </span><span class="nep"> स्थानीय तथा मौलिक स्रोत, सँस्कृति र प्रविधिलाई एकिकृत गर्दै आधुनिक बैंकिङ तथा लघुवित्त योजनाहरुका माध्यमबाट ग्राहकहरुलाई प्रभावकारी वित्तीय मध्यस्थता प्रदान गर्ने ।</span> -->
 			</p></div>
 </div>
 		

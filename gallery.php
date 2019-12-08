@@ -5,8 +5,8 @@
 ?>
 <section>
  <div class="container">
-    <h1 class="text-center pt-5">Gallery</h1>
-    <hr class="w-25 mx-auto pt-5">
+    <h1 class="text-center pt-3"><span class="eng">Gallery</span><span class="nep">ग्यालरी</span></h1>
+    <!-- <hr class="w-25 mx-auto pt-5"> -->
 
     
 <div class="row text-center mb-5">
@@ -26,7 +26,7 @@
           <img class="card-img-top" src="admin/img/<?php echo $main_image;?>" alt="Card image">
           <div class="card-body">
             <h5 class="card-title"><?php echo $gallery_title; ?></h4>
-            <a href="images.php?id=<?php echo $gId; ?>" class="btn btn-outline-success btn-sm">View all</a>
+            <a href="images.php?id=<?php echo $gId; ?>" class="btn btn-outline-success btn-sm"><span class="eng">View all</span><span class="nep">सबै हेर्नुहाेस</span></a>
           </div>
         </div>
   </div> 
