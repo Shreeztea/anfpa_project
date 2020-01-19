@@ -6,7 +6,7 @@
 -->
   <div class="logo">
     <a href="" class="simple-text logo-normal">
-      Salapa Bikas Bank
+      ANFPA
     </a>
   </div>
   <div class="sidebar-wrapper">
@@ -39,7 +39,7 @@
       <li class="nav-item ">
         <a class="nav-link" href="./news.php">
           <i class="material-icons">view_module</i>
-          <p>Deposit Category</p>
+          <p>Content</p>
         </a>
       </li>
       <!-- <li class="nav-item ">

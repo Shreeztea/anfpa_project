@@ -213,11 +213,37 @@
   </script>
   <script>
     $(document).ready(function() {
+       // alert("hello");
       // Javascript method's body can be found in assets/js/demos.js
       md.initDashboardPageCharts();
 
+       $('#category').on('change',function(){ 
+            // console.log('abc');
+            var cat_title = $(this).val();
+            // alert(cat_title);
+            if(cat_title){
+                $.ajax({
+                    type:'POST',
+                    url:'subcategory.php',
+                    data:'cat_title='+cat_title,
+                    success:function(html){
+                        $('#subcategory').html(html); 
+                    }
+                }); 
+            }else{
+                $('#subcategory').html('<option value="">There is no subcategory.</option>'); 
+            }
+          });
+
     });
   </script>
+
+<!--   <script type="text/javascript">
+     alert("hell");
+  $(document).ready(function(){
+        alert("he");
+       
+</script> -->
 </body>
 
 </html>

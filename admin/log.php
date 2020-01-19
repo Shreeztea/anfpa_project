@@ -12,12 +12,17 @@
     $uname = test_input($_POST['uname']);
   //$pass = test_input(MD5($_POST['pass']));
     $pass = test_input($_POST['pass']);
-    $query = "SELECT * FROM user WHERE username='$uname' AND password='$pass' ";
+    $query = "SELECT * FROM user WHERE username='$uname' AND password='$pass'";
 
     $res = mysqli_query($con,$query);
     if(mysqli_num_rows($res)>0){
-
+      while($row = mysqli_fetch_array($res)){ 
+      
       $_SESSION['username']=$uname;
+      $_SESSION['role']=$row['role'];
+      $_SESSION['province']=$row['province'];
+      $abc = $row['role'];
+    }
       echo "<script>window.open('index.php','_self')</script>";
        echo "<script>alert('Login successfully')</script>";    
 

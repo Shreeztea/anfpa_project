@@ -1,3 +1,17 @@
+<?php 
+ // session_start();
+ if(isset($_SESSION['username']))
+ {
+   $username = $_SESSION['username'];
+   $role = $_SESSION['role'];
+   $province = $_SESSION['province'];
+   echo "<script>alert($role)</script>";   
+ }
+ else{
+  echo "<script>window.open('login.php','_self')</script>";
+ }
+
+?>
 <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
@@ -19,19 +33,14 @@
                     Account
                   </p>
                 </a>
-                <?php 
-                    //session_start();
-                if(isset($_SESSION['username'])) { ?>
+            
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
                   <a class="dropdown-item" href="storeinfo.php">Profile</a>
                   <a class="dropdown-item" href="#">Settings</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="logout.php">Log out</a>
                 </div>
-              <?php } else{ 
-                  echo "<a href='login.php'></a>";
-                }
-                ?>
+             
 
               </li>
             </ul>
