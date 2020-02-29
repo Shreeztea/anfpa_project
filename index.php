@@ -25,23 +25,13 @@
 		<div class="top-bar">
 			<div class="container-fluid">
 				<div class="row">
-					<!-- <div class="col-md-6 trending-topics hidden-sm hidden-xs">
-						<h4>Trending</h4>
-						<ul class="list-inline">
-							<li><a href="#">Global Warming</a></li>
-							<li><a href="#">Google</a></li>
-							<li><a href="#">Facebook</a></li>
-						</ul>
-					</div>  --><!-- .col-md-6 ends -->
-					<div class="col-md-6 social-links">
-						<!-- <button class="btn btn-main btn-sm pull-right">Donate Us</button> -->
+					<div class="col-md-6 trending-topics hidden-sm hidden-xs">
 						<ul class="list-inline">
 							<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
 							<li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
 							<li><a href="#"><i class="icon ion-social-instagram-outline"></i></a></li>
 							<li><a href="#"><i class="icon ion-social-linkedin-outline"></i></a></li>
 						</ul>
-
 					</div> <!-- .col-md-6 ends -->
 				</div> <!-- .row ends -->
 			</div> <!-- .container-fluid ends -->
@@ -60,27 +50,30 @@
 				</div> <!-- .navbar-header ends -->
 				<div class="collapse navbar-collapse" id="politics-navbar-real">
 					<ul class="nav navbar-nav navbar-left">
-						<li class="active"><a data-scroll href="#site-header">Home <span class="sr-only">(current)</span></a></li>
-						<li><a data-scroll href="#latest-news">News</a></li>
-						<li><a data-scroll href="#press-release">Press</a></li>
-						<li><a data-scroll href="#campaign-events">Campaigns</a></li>
-					</ul> <!-- .nav navbar-nav ends -->
-
-					<ul class="nav navbar-nav navbar-right">
-						
-						<li><a data-scroll href="#featured-event">Events</a></li>
+						<li class="active"><a data-scroll href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li><a data-scroll href="#quick-links-block">About Us</a></li>
 						<li><a data-scroll href="#our-members">Members</a></li>
-						<li class="dropdown">
+						<li><a href="contact.html">Programs</a></li>
+						<!-- <li class="dropdown">
 
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
 
 							<ul class="dropdown-menu">
 								<li><a href="blog.html">Blog</a></li>
 								<li><a href="single-post.html">Single Post</a></li>
-							</ul> <!-- .dropdown-menu ends -->
+							</ul> --> <!-- .dropdown-menu ends -->
 
-						</li> <!-- .dropdown ends -->
+						<!-- </li> --> <!-- .dropdown ends -->
+						
+					</ul> <!-- .nav navbar-nav ends -->
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a data-scroll href="#latest-news">News</a></li>
+						<li><a data-scroll href="#press-release">Media</a></li>
+						<!-- <li><a data-scroll href="#campaign-events">Campaigns</a></li> -->
+						<li><a data-scroll href="#featured-event">Events</a></li>
 						<li><a href="contact.html">Contact</a></li>
+						
 					</ul> <!-- .nav navbar-nav ends -->
 				</div> <!-- .collapse navbar-collapse ends -->
 			</div> <!-- .container ends -->
@@ -100,23 +93,22 @@
 
 			<div class="carousel-inner">
 				<div class="item active">
-					<img class="carousel-bg" src="http://placehold.it/1920x660" alt="carousel image">
+					<img src="wall.js/ANPFA image/1.jpg" alt="carousel image">
 					<div class="carousel-caption">
-						<div class="caption-image">
-							<img data-animation="animated fadeInRight" src="http://placehold.it/363x680" alt="caption image">
-						</div> <!-- .caption-image ends -->
+						<!-- <div class="caption-image">
+							<img data-animation="animated fadeInRight" src="wall.js/ANPFA image/2.jpg" alt="caption image">
+						</div> --> <!-- .caption-image ends -->
 						<div class="caption-content">
 							<h1><small data-animation="animated fadeInDown">Wind of changes</small>  <span data-animation="animated fadeInRight">News days are comming</span></h1>
 							<p data-animation="animated fadeInUp">
 								Quisque ut nisi. Sed fringilla et nibh. Ut varius tincidunt libero. Maecenas  he nunc fringilla tristique.
 							</p>
-							<button class="btn btn-main btn-lg" data-animation="animated fadeInUp">Join Us</button>
 						</div> <!-- .caption-content ends -->
 						
 					</div> <!-- .carousel-caption ends -->
 				</div> <!-- .item active ends -->
 				<div class="item">
-					<img class="carousel-bg" src="http://placehold.it/1920x660" alt="carousel image">
+					<img src="wall.js/ANPFA image/2.jpg" alt="carousel image">
 					<div class="carousel-caption">
 					
 						<div class="caption-content">
@@ -124,7 +116,6 @@
 							<p data-animation="animated fadeInUp">
 								Quisque ut nisi. Sed fringilla et nibh. Ut varius tincidunt libero. Maecenas  he nunc fringilla toma dermajhe kikeu tomra kakebolo na amadero ase bondhuam manbona tobeb tristique.
 							</p>
-							<button class="btn btn-main btn-lg" data-animation="animated fadeInUp">Learn More</button>
 						</div> <!-- .caption-content ends -->
 						
 					</div> <!-- .carousel-caption ends -->
@@ -227,7 +218,7 @@
 			<div class="row section-content">
 				<div class="col-md-6 featured-news">
 					<div class="news-wrapper">
-						<img class="img-responsive" src="http://placehold.it/720x494" alt="latest news image">
+						<img class="img-responsive" src="wall.js/ANPFA image/3.jpg" alt="latest news image">
 
 						<div class="news-content">
 							<a class="news-category" href="#">World War</a>
@@ -247,7 +238,18 @@
 					<div class="row">
 						<div class="col-sm-6 news-item">
 							<div class="item-wrapper">
-								<img class="img-responsive" src="http://placehold.it/720x480" alt="latest news image">
+								<img class="img-responsive" src="wall.js/ANPFA image/1.jpg" alt="latest news image">
+
+								<div class="item-content">
+									<span class="item-date">May 24, 2016</span>
+									<h4>Commodo consequ aepteur sint oatat non<a class="read-more-link" href="#">Continue</a></h4>
+								</div> <!-- .item-content ends -->
+							</div> <!-- .item-wrapper ends -->
+						</div> <!-- .col-md-6 news-item ends -->
+
+						<div class="col-sm-6 news-item">
+							<div class="item-wrapper">
+								<img class="img-responsive" src="wall.js/ANPFA image/2.jpg" alt="latest news image">
 
 								<div class="item-content">
 									<span class="item-date">May 24, 2016</span>
@@ -258,29 +260,7 @@
 
 						<div class="col-sm-6 news-item">
 							<div class="item-wrapper">
-								<img class="img-responsive" src="http://placehold.it/720x480" alt="latest news image">
-
-								<div class="item-content">
-									<span class="item-date">May 24, 2016</span>
-									<h4>Commodo consequ aepteur sint oatat non</h4>
-								</div> <!-- .item-content ends -->
-							</div> <!-- .item-wrapper ends -->
-						</div> <!-- .col-md-6 news-item ends -->
-
-						<div class="col-sm-6 news-item">
-							<div class="item-wrapper">
-								<img class="img-responsive" src="http://placehold.it/720x480" alt="latest news image">
-
-								<div class="item-content">
-									<span class="item-date">May 24, 2016</span>
-									<h4>Commodo consequ aepteur sint oatat non</h4>
-								</div> <!-- .item-content ends -->
-							</div> <!-- .item-wrapper ends -->
-						</div> <!-- .col-md-6 news-item ends -->
-
-						<div class="col-sm-6 news-item">
-							<div class="item-wrapper">
-								<img class="img-responsive" src="http://placehold.it/720x480" alt="latest news image">
+								<img class="img-responsive" src="wall.js/ANPFA image/1.jpg" alt="latest news image">
 
 								<div class="item-content">
 									<span class="item-date">May 24, 2016</span>
@@ -297,7 +277,7 @@
 
 	<!-- FEATURED CONTENT -->
 
-	<section class="featured-content" id="featured-content">		
+	<!-- <section class="featured-content" id="featured-content">		
 		<div class="container">
 			<div class="content-block">
 				<h2>World needs a leader and you need me!</h2>
@@ -306,12 +286,12 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				<button class="btn btn-main btn-normal">Learn More</button>
-			</div> <!-- .content-block ends -->
-			<div class="image-block">
+			</div> --> <!-- .content-block ends -->
+			<!-- <div class="image-block">
 				<img class="img-responsive" src="http://placehold.it/398x528" alt="man image 2">
-			</div> <!-- .image-block ends -->
-		</div> <!-- .container ends -->
-	</section> <!-- .featured-content ends -->
+			</div> --> <!-- .image-block ends -->
+		<!-- </div> --> <!-- .container ends -->
+	<!-- </section> --> <!-- .featured-content ends -->
 
 
 	<!-- QUICK LINKS BLOCK -->
@@ -327,7 +307,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. 
 						</p>
-						<a class="read-more-link" href="#">Learn More</a>
+						<a class="read-more-link" href="single-post.html">Learn More</a>
 					</div> <!-- .content-block ends -->
 				</div> <!-- col-md-4 ends -->
 
@@ -842,7 +822,7 @@
 
 	<!-- EMAIL SUBSCRIPTION -->
 
-	<section class="email-subscription" id="email-subscription">
+	<!-- <section class="email-subscription" id="email-subscription">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -850,9 +830,9 @@
 					<div class="content-block">
 						<h2>Get latest news</h2>
 						<p>Subscribe to our newsletter</p>
-					</div> <!-- .content-block ends -->
-				</div> <!-- .col-md-6 ends -->
-				<div class="col-md-6">
+					</div>  --><!-- .content-block ends -->
+				<!-- </div> --> <!-- .col-md-6 ends -->
+				<!-- <div class="col-md-6">
 					<form class="subscription-form" id="subscription-form">
 						<div class="row no-padding">
 							<div class="col-sm-8">
@@ -860,18 +840,18 @@
 									<label class="sr-only" for="email">Email:</label>
 									<input class="form-control" type="email" id="email" placeholder="Your email here">
 									
-								</div> <!-- .form-group ends -->
-							</div> <!-- .col-sm-8 ends -->
-							<div class="col-sm-4">
+								</div> --> <!-- .form-group ends -->
+							<!-- </div> --> <!-- .col-sm-8 ends -->
+							<!-- <div class="col-sm-4">
 								<button class="btn btn-main">Submit</button>
-							</div> <!-- .col-sm-4 ends -->
-						</div> <!-- .row ends -->
+							</div> --> <!-- .col-sm-4 ends -->
+						<!-- </div> --> <!-- .row ends -->
 						
-					</form> <!-- .subscrition-form ends -->
-				</div> <!-- .form-block ends -->
-			</div> <!-- .row ends -->
-		</div> <!-- .container ends -->
-	</section> <!-- .email-subscriptin ends -->
+					<!-- </form> --> <!-- .subscrition-form ends -->
+				<!-- </div> --> <!-- .form-block ends -->
+			<!-- </div> --> <!-- .row ends -->
+		<!-- </div> --> <!-- .container ends -->
+	<!-- </section> --> <!-- .email-subscriptin ends -->
 
 
 	<!-- MAIN FOOTER -->
@@ -940,7 +920,7 @@
 						</ul>
 					</div> <!-- .link-block ends -->
 				</div> <!-- .col-md-3 ends -->
-				<div class="col-md-3 col-sm-6 widget photo-block">
+				<!-- <div class="col-md-3 col-sm-6 widget photo-block">
 					<h3 class="widget-title">Photo Gallery</h3>
 
 					<ul class="gallery-photos clearfix">
@@ -971,8 +951,8 @@
 						<li>
 							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
 						</li>
-					</ul> <!-- .gallery-photos ends -->
-				</div> <!-- .col-md-3 ends -->
+					</ul> --> <!-- .gallery-photos ends -->
+				<!-- </div> --> <!-- .col-md-3 ends -->
 
 				<!-- <div class="clearfix visible-xs"></div> -->
 
@@ -1002,7 +982,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-4 copyright-block">
-						<p>All rights reserved &copy; 2016 <a href="www.rainydesign.com">Rainy Design</a></p>
+						<p>All rights reserved &copy; 2020 Vision</p>
 					</div> <!-- .col-md-4 ends -->
 					<div class="col-lg-4 social-block">
 						<ul class="social-icon-list list-inline">

@@ -26,7 +26,15 @@ span.hl {
   text-align: center;
   margin-bottom: 20px;
 }
-
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .sub-header>h5 {
   display: inline-block;
   padding: 10px 20px;
@@ -39,14 +47,15 @@ span.hl {
 
 .wrapper {
   max-width: 1000px;
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .nav {
   position: fixed;
   width: 100%;
-  background: none;
+  background: red;
+  /*height: 70px;*/
 }
 
 @media (max-width: 650px) {
@@ -80,7 +89,7 @@ span.hl {
 }
 
 .section {
-  padding: 70px 20px 30px 20px;
+  padding: 70px 20px 30px 10px;
 }
 
 @media (max-width: 650px) {
@@ -90,8 +99,8 @@ span.hl {
 }
 
 .section h1 {
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px #333;
+  /*margin-bottom: 20px;*/
+  /*text-shadow: 2px 2px 5px #333;*/
   text-align: center;
   font-size: 60px;
   font-weight: 700;
@@ -101,7 +110,8 @@ span.hl {
 }
 
 .section:first-of-type h1 {
-  font-size: 100px;
+  font-size: 30px;
+  color: green;
 }
 
 .current h1 {
@@ -111,7 +121,7 @@ span.hl {
 
 .section-1 {
   background-color: #ff6434;
-  background: linear-gradient( #ff6434 15%, #ffab00 0, #ffab00 30%, #ffff56 0, #ffff56 45%, #64dd17 0, #64dd17 60%, #00b8d4 0, #00b8d4 75%, #2962ff 0, #2962ff 90%, #6200ea 0, #6200ea 100%);
+  background: grey;
 }
 
 .section-2 {
