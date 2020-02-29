@@ -1,5 +1,29 @@
 <?php
 include('header.php');
+include "admin/db.php";
+
+if(isset($_GET['cat'])){
+	if(isset($_GET['sub'])){
+		$catId = $_GET['cat'];
+		$subId = $_GET['sub'];
+		$get_con = "SELECT * FROM content where category=".$catId." AND sub_category=".$subId;
+
+      
+	}else{
+		$catId = $_GET['cat'];
+		$get_con = "SELECT * FROM content where category=".$catId;
+	}
+
+  		$run_con = mysqli_query($con, $get_con);
+  		// echo $get_con;
+        $row_count = mysqli_num_rows($run_con);
+        // echo $row_count;
+		if($row_count >= 1)
+		{
+
+
+// }
+    //}
 ?>
 	<section class="page-content section-block">
 		<div class="container">
@@ -7,90 +31,32 @@ include('header.php');
 				<div class="col-md-12">
 					<div class="main-content">
 						<div class="blog-posts">
+							<?php while ($row_con = mysqli_fetch_array($run_con)) {?>
 							<article class="blogpost clearfix">
 								<div class="image-block">
-									<img class="img-responsive" src="wall.js/ANPFA image/1.jpg" alt="article image">
+									<img class="img-responsive" src="admin/img/<?php echo $row_con['image'];?>" alt="article image">
 								</div>
 				
 								<div class="post-content">
 									<div class="content-wrapper">
-										<h2 class="post-title"><a href="#">Duis aute irure dolor in repreh enderit in voluptate</a></h2>
+										<h2 class="post-title"><a href="#"><?php echo $row_con['title_eng'];?></a></h2>
 										<p class="excerpt">
-											Belaboris nisi ut aliquip ex ea commodo
-											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse..
+											<?php 
+
+											$string = strip_tags($row_con['desc_eng']);
+											$yourText = $row_con['desc_eng'];
+											if (strlen($string) > 350) {
+											    $stringCut = substr($string, 0, 350);
+											    
+											}
+											 echo $stringCut;
+											?>
 										</p>
-										<a class="read-more-link" href="single-post.php">Continue Reading</a>
+										<a class="read-more-link" href="single-post.php?id=<?php echo $row_con['id'];?>">Continue Reading</a>
 									</div> <!-- .content-wrapper ends -->
 								</div> <!-- .post-content ends -->
 							</article> <!-- .blogpost ends -->
-							<article class="blogpost clearfix">
-								<div class="image-block">
-									<img class="img-responsive" src="http://placehold.it/720x480" alt="article image">
-								</div>
-				
-								<div class="post-content">
-									<div class="content-wrapper">
-										<h2 class="post-title"><a href="#">ante vel mi Vivamus consect etuer hendrerit lacus</a></h2>
-										<p class="excerpt">
-											Belaboris nisi ut aliquip ex ea commodo
-											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-											cillum dolore eu fugiat nulla pariat laborum.
-										</p>
-										<a class="read-more-link" href="#">Continue Reading</a>
-									</div> <!-- .content-wrapper ends -->
-								</div> <!-- .post-content ends -->
-							</article> <!-- .blogpost ends -->
-							<article class="blogpost clearfix">
-								<div class="image-block">
-									<img class="img-responsive" src="http://placehold.it/720x480" alt="article image">
-								</div>
-				
-								<div class="post-content">
-									<div class="content-wrapper">
-										<h2 class="post-title"><a href="#"> vehicula eros quam gravida nisl id fringilla neque </a></h2>
-										<p class="excerpt">
-											Belaboris nisi ut aliquip ex ea commodo
-											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-											cillum dolore eu fugiat nulla pariat laborum.
-										</p>
-										<a class="read-more-link" href="#">Continue Reading</a>
-									</div> <!-- .content-wrapper ends -->
-								</div> <!-- .post-content ends -->
-							</article> <!-- .blogpost ends -->
-							<article class="blogpost clearfix">
-								<div class="image-block">
-									<img class="img-responsive" src="http://placehold.it/720x480" alt="article image">
-								</div>
-				
-								<div class="post-content">
-									<div class="content-wrapper">
-										<h2 class="post-title"><a href="#"> non velit Fusce a quam rutrum mi nec elementum</a></h2>
-										<p class="excerpt">
-											Belaboris nisi ut aliquip ex ea commodo
-											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-											cillum dolore eu fugiat nulla pariat laborum.
-										</p>
-										<a class="read-more-link" href="#">Continue Reading</a>
-									</div> <!-- .content-wrapper ends -->
-								</div> <!-- .post-content ends -->
-							</article> <!-- .blogpost ends -->
-							<article class="blogpost clearfix">
-								<div class="image-block">
-									<img class="img-responsive" src="http://placehold.it/720x480" alt="article image">
-								</div>
-				
-								<div class="post-content">
-									<div class="content-wrapper">
-										<h2 class="post-title"><a href="#">Nulla neque dolor sagittis eget iaculis quis molestie</a></h2>
-										<p class="excerpt">
-											Belaboris nisi ut aliquip ex ea commodo
-											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-											cillum dolore eu fugiat nulla pariat laborum.
-										</p>
-										<a class="read-more-link" href="single-post.php">Continue Reading</a>
-									</div> <!-- .content-wrapper ends -->
-								</div> <!-- .post-content ends -->
-							</article> <!-- .blogpost ends -->
+						<?php } ?>
 						</div> <!-- .blog-posts ends -->
 						<!-- <div class="content-footer pagination-block">
 							<ul>
@@ -108,7 +74,7 @@ include('header.php');
 			</div> <!-- .row ends -->
 		</div> <!-- .container ends -->
 	</section> <!-- .page-content ends -->
-
+<?php }} ?>
 	<footer class="main-footer section-block" id="main-footer">
 		<div class="container">
 			<div class="row section-content">

@@ -89,7 +89,7 @@
 							
 							<ul class="dropdown-menu">
 							<?php while ($row_sub = mysqli_fetch_array($run_sub)) {?>
-								<li><a href="blog.php"><?php echo $row_sub['name_eng'];?></a></li>
+								<li><a href="blog.php?cat=<?php echo $catId;?>&&sub=<?php echo $row_sub['id'];?>"><?php echo $row_sub['name_eng'];?></a></li>
 							<?php } ?>
 							</ul> </li><?php }
 											else{ ?>
