@@ -68,7 +68,13 @@
 					</ul> <!-- .nav navbar-nav ends -->
 
 					<ul class="nav navbar-nav navbar-right">
-						<li><a data-scroll href="#latest-news">News</a></li>
+						 <li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News<span class="caret"></span></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="blog.html">Province 1</a></li>
+							</ul> 
 						<li><a data-scroll href="#press-release">Media</a></li>
 						<!-- <li><a data-scroll href="#campaign-events">Campaigns</a></li> -->
 						<li><a data-scroll href="#featured-event">Events</a></li>
@@ -99,7 +105,7 @@
 							<img data-animation="animated fadeInRight" src="wall.js/ANPFA image/2.jpg" alt="caption image">
 						</div> --> <!-- .caption-image ends -->
 						<div class="caption-content">
-							<h1><small data-animation="animated fadeInDown">Wind of changes</small>  <span data-animation="animated fadeInRight">News days are comming</span></h1>
+							<h1><span data-animation="animated fadeInRight">All Nepal Peasants Fedration Association</span></h1>
 							<p data-animation="animated fadeInUp">
 								Quisque ut nisi. Sed fringilla et nibh. Ut varius tincidunt libero. Maecenas  he nunc fringilla tristique.
 							</p>
@@ -155,18 +161,17 @@
 			</div> <!-- .section-title-block ends -->
 
 			<div class="row section-content">
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<div class="content-wrapper">
 						<div class="icon-block"><i class="icon ion-ios-world-outline"></i></div>
 						<h3><a href="#">Our Mandate</a></h3>
 						<p>
-							Nolabore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud mmodo autit.
+							The president had a clear mandate to end the war. a command from a superior court or official to a lower one: The appellate court resolved the appeal and issued a mandate to the district judge
 						</p>
 					</div> <!-- .content-wrapper ends -->
 				</div> <!-- col-lg-3 ends -->
 
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<div class="content-wrapper">
 						<div class="icon-block"><i class="icon ion-ios-chatboxes-outline"></i></div>
 						<h3><a href="#">Election Campaign</a></h3>
@@ -177,21 +182,10 @@
 					</div> <!-- .content-wrapper ends -->
 				</div> <!-- col-lg-3 ends -->
 
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<div class="content-wrapper">
 						<div class="icon-block"><i class="icon ion-ios-personadd-outline"></i></div>
 						<h3><a href="#">Get involved</a></h3>
-						<p>
-							Nolabore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud mmodo autit.
-						</p>
-					</div> <!-- .content-wrapper ends -->
-				</div> <!-- col-lg-3 ends -->
-
-				<div class="col-lg-3">
-					<div class="content-wrapper">
-						<div class="icon-block"><i class="icon ion-ios-color-wand-outline"></i></div>
-						<h3><a href="#">Make Donation</a></h3>
 						<p>
 							Nolabore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud mmodo autit.
