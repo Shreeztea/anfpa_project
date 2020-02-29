@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>wall.js</title>
-  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <title>ANPFA</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'
   />
-
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css' />
   <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'></script>
   <!--<script>
@@ -24,67 +24,72 @@
 </head>
 
 <body>
-  <a href="https://github.com/nichenqin1001/wall.js"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 20" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <ul class="nav" data-wall-section-nav>
-    <li class="nav-link">First-Intro</li>
-    <li class="nav-link">Second-Navs</li>
-    <li class="nav-link">Third-Slides</li>
-    <li class="nav-link">Forth-Duration</li>
-    <li class="nav-link">Fifth-Class</li>
-    <li class="nav-link">Sixth-API</li>
-    <li class="nav-link">Seventh-Configs</li>
+    <li class="nav-link">Home</li>
+    <li class="nav-link">About Us</li>
+    <li class="nav-link">News And Media</li>
+    <li class="nav-link">Events</li>
+    <li class="nav-link">Programmes</li>
+    <li class="nav-link">Gallery</li>
+    <li class="nav-link">Contact Us</li>
   </ul>
   <div id="wall" class="wall main">
-    <section class="section section-1">
-      <div class="wrapper">
-        <h1>wall.js</h1>
-        <div class="sub-header">
-          <h5>Fullpage Piling, vanilla javascript, no dependency</h5>
+   <!--  <section class="section section-1">
+      <div class="wrapper"> -->
+        <header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">First Slide</h2>
+          <p class="lead">This is a description for the first slide.</p>
         </div>
-        <h5 class="step">>> Get Started</h5>
-        <pre class="html">
-          <code>
-            &lt;body&gt;
-              &lt;div id="wrapper"&gt;
-                &lt;section&gt;&lt;!--your content--&gt;&lt;/section&gt;
-                &lt;!--other sections--&gt;
-                &lt;section&gt;&lt;!--your content--&gt;&lt;/section&gt;
-              &lt;/div&gt;
-            &lt;/body&gt;
-
-            &lt;script src="path/to/wall.min.js"&gt;&lt;/script&gt;
-            &lt;script&gt;
-              var wall = new Wall('#wrapper'); 
-            &lt;/script&gt;
-          </code>
-        </pre>
       </div>
-    </section>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Second Slide</h2>
+          <p class="lead">This is a description for the second slide.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Third Slide</h2>
+          <p class="lead">This is a description for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
+          <!-- </div>
+    </section> -->
     <section class="section section-2">
       <div class="wrapper">
-        <h1>Config Navs</h1>
+        <h1>About Us</h1>
         <div class="sub-header">
-          <h5>Do you see the nav at top and dots at right?</h5>
+          <h5></h5>
         </div>
         <h5 class="step">>> add <span class="hl">data-wall-section-nav</span> attribute to your own nav element</h5>
         <p>Note: wall.js will not create them directly, what wall.js does is to toggle the active class</p>
-        <pre class="html">
-          <code>
-            &lt; !-- DON'T ADD THE NAV ELEMENT INSIDE THE WRAPPER -- &gt;
-            &lt;ul class="nav" data-wall-section-nav&gt;
-              &lt;li&gt;First&lt;/li&gt;
-              &lt;li&gt;Second&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;div id="wall"&gt; &lt;!-- wrapper --&gt;
-              &lt;section&gt;First Section&lt;/section&gt;
-              &lt;section&gt;Second Section&lt;/section&gt;
-            &lt;/div&gt;
-            &lt;ul class="dot" data-wall-section-nav&gt;
-              &lt;li&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          </code>
-        </pre>
+         
         <h5 class="step">>> Style the nav element by yourself</h5>
         <p>here is an example of dot nav</p>
         <pre class="css">
@@ -303,8 +308,8 @@
       </div>
     </section>
   </div>
-  <div id="prev" class="btn btn-secondary">prev</div>
-  <div id="next" class="btn btn-primary">next</div>
+ <!--  <div id="prev" class="btn btn-secondary">prev</div>
+  <div id="next" class="btn btn-primary">next</div> -->
   <ul class="dot" data-wall-section-nav>
     <li></li>
     <li></li>
