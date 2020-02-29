@@ -394,7 +394,7 @@ ul {
 .politics-navbar .navbar-nav li.dropdown a {
   color: #ffffff;
   box-shadow: none;
-  background: #c31f30;
+  /*background: #c31f30;*/
 }
 .politics-navbar .navbar-nav li.dropdown a:focus,
 .politics-navbar .navbar-nav li.dropdown a:hover {

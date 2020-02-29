@@ -50,29 +50,36 @@
 				</div> <!-- .navbar-header ends -->
 				<div class="collapse navbar-collapse" id="politics-navbar-real">
 					<ul class="nav navbar-nav navbar-left">
-						<li class="active"><a data-scroll href="#">Home <span class="sr-only">(current)</span></a></li>
-						<li><a data-scroll href="#quick-links-block">About Us</a></li>
-						<li><a data-scroll href="#latest-news">News</a></li>
-						<li><a data-scroll href="#press-release">Press</a></li>
-						<li><a data-scroll href="#campaign-events">Campaigns</a></li>
-					</ul> <!-- .nav navbar-nav ends -->
-
-					<ul class="nav navbar-nav navbar-right">
-						
-						<li><a data-scroll href="#featured-event">Events</a></li>
-						<li><a data-scroll href="#our-members">Members</a></li>
-						<li><a href="contact.html">States</a></li>
-						<li class="dropdown">
+						<li class="active"><a data-scroll href="index.php">Home <span class="sr-only">(current)</span></a></li>
+						<li><a data scroll href="#quick-links-block">About Us</a></li>
+						<li><a  href="#our-members">Members</a></li>
+						<li><a href="contact.php">Programs</a></li>
+						<!-- <li class="dropdown">
 
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
 
 							<ul class="dropdown-menu">
 								<li><a href="blog.html">Blog</a></li>
 								<li><a href="single-post.html">Single Post</a></li>
-							</ul> <!-- .dropdown-menu ends -->
+							</ul> --> <!-- .dropdown-menu ends -->
 
-						</li> <!-- .dropdown ends -->
+						<!-- </li> --> <!-- .dropdown ends -->
+						
+					</ul> <!-- .nav navbar-nav ends -->
+
+					<ul class="nav navbar-nav navbar-right">
+						 <li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News<span class="caret"></span></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="blog.html">Province 1</a></li>
+							</ul> 
+						<li><a href="#press-release">Media</a></li>
+						<!-- <li><a data-scroll href="#campaign-events">Campaigns</a></li> -->
+						<li><a  href="#featured-event">Events</a></li>
 						<li><a href="contact.html">Contact</a></li>
+						
 					</ul> <!-- .nav navbar-nav ends -->
 				</div> <!-- .collapse navbar-collapse ends -->
 			</div> <!-- .container ends -->
