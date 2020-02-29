@@ -53,17 +53,7 @@
 						<li class="active"><a data-scroll href="#">Home <span class="sr-only">(current)</span></a></li>
 						<li><a data scroll href="#quick-links-block">About Us</a></li>
 						<li><a  href="#our-members">Members</a></li>
-						<li><a href="contact.php">Programs</a></li>
-						<!-- <li class="dropdown">
-
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-
-							<ul class="dropdown-menu">
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="single-post.html">Single Post</a></li>
-							</ul> --> <!-- .dropdown-menu ends -->
-
-						<!-- </li> --> <!-- .dropdown ends -->
+						<li><a href="blog.php">Programs</a></li>
 						
 					</ul> <!-- .nav navbar-nav ends -->
 
@@ -97,7 +87,7 @@
 						<?php } }?>
 						
 						<!-- <li><a  href="#featured-event">Events</a></li> -->
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
 						
 					</ul> <!-- .nav navbar-nav ends -->
 				</div> <!-- .collapse navbar-collapse ends -->
@@ -311,6 +301,13 @@
 
 	<section class="quick-links-block" id="quick-links-block">
 		<div class="container-fluid">
+			<div class="section-title-block-2">
+				<h3>About Us</h3>
+				<p>
+					Lorem ipsum in reprehe velit essn
+					proident, sunt eprehe velin culpa qui id est laborum.
+				</p>
+			</div> <!-- .section-title-block-2 ends -->
 			<div class="row section-content">
 				<div class="col-md-4 mission-block">
 					<div class="content-wrapper">
@@ -425,28 +422,6 @@
 		</div> <!-- .container ends -->
 	</section> <!-- .press-release ends -->
 
-
-	<!-- DONATION BANNER -->
-
-	<section class="donation-banner" id="donation-banner">
-		<div class="container">
-			<div class="banner-content">
-				<h2>Serve the nation</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.
-				</p>
-				<button class="btn btn-main btn-lg">Donate Now</button>
-			</div> <!-- .banner-content ends -->
-
-			<div class="donation-amount">
-				<h3 data-from="2000000" data-to="23232543" data-speed="6000">$ 23,232,543</h3>
-				<span>Donated till now</span>
-			</div> <!-- .donation-amount ends -->
-		</div> <!-- .container ends -->
-	</section> <!-- .donation-banner ends -->
-
-
 	<!-- TESTIMONIAL -->
 
 	<section class="testimonial section-block" id="testimonial">
@@ -546,26 +521,6 @@
 		</div> <!-- .container ends -->
 	</section> <!-- .testimonial section-block ends -->
 
-
-	<!-- VOLUNTEER BANNER -->
-
-	<section class="volunteer-banner" id="volunteer-banner">
-		<div class="container">
-			<div class="content-block">
-				<h2>Become A Volunteer</h2>
-				<p>
-					Lorem ipsur xcepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<button class="btn btn-main btn-normal">Join Now</button>
-			</div> <!-- .content-block ends -->
-			<div class="image-block">
-				<img class="img-responsive" src="http://placehold.it/420x339" alt="volunteers">
-			</div> <!-- .image-block ends -->
-		</div> <!-- .container ends -->
-	</section> <!-- .volunteer-banner ends -->
-
-
 	<!-- CAMPAIGN EVENTS -->
 
 	<section class="campaign-events section-block-2" id="campaign-events">
@@ -604,12 +559,12 @@
 								<img class="img-responsive" src="http://placehold.it/500x357" alt="event image">
 							</div> <!-- .image-block ends -->
 							<div class="content-block">
-								<span class="event-date">May 24, 2016</span>
+								<span class="event-date">May 24, 2020</span>
 								<div class="event-details">
 									<h2>Eepteur sint o erunt mo est laboru</h2>
 									<ul class="event-meta">
 										<li>Time: <span>10.00 am</span></li>
-										<li>Place: <span>Dhaka University</span></li>
+										<li>Place: <span>Kathmandu University</span></li>
 									</ul> <!-- .event-meta ends -->
 									<div class="event-footer">
 										<a class="join-link" href="#">Join Now</a>
@@ -624,32 +579,12 @@
 								<img class="img-responsive" src="http://placehold.it/500x357" alt="event image">
 							</div> <!-- .image-block ends -->
 							<div class="content-block">
-								<span class="event-date">May 24, 2016</span>
+								<span class="event-date">May 24, 2020</span>
 								<div class="event-details">
 									<h2>Eepteur sint o erunt mo est laboru</h2>
 									<ul class="event-meta">
 										<li>Time: <span>10.00 am</span></li>
-										<li>Place: <span>Dhaka University</span></li>
-									</ul> <!-- .event-meta ends -->
-									<div class="event-footer">
-										<a class="join-link" href="#">Join Now</a>
-										<a class="read-more-link" href="#">Learn More</a>
-									</div> <!-- .event-footer ends -->
-								</div> <!-- .event-details ends -->
-							</div> <!-- .content-block ends -->
-						</li> <!-- .event ends -->
-
-						<li class="event clearfix">
-							<div class="image-block">
-								<img class="img-responsive" src="http://placehold.it/500x357" alt="event image">
-							</div> <!-- .image-block ends -->
-							<div class="content-block">
-								<span class="event-date">May 24, 2016</span>
-								<div class="event-details">
-									<h2>Eepteur sint o erunt mo est laboru</h2>
-									<ul class="event-meta">
-										<li>Time: <span>10.00 am</span></li>
-										<li>Place: <span>Dhaka University</span></li>
+										<li>Place: <span>Kathmandu University</span></li>
 									</ul> <!-- .event-meta ends -->
 									<div class="event-footer">
 										<a class="join-link" href="#">Join Now</a>
@@ -667,7 +602,7 @@
 
 	<!-- FEATURED EVENT  -->
 
-	<section class="featured-event" id="featured-event">
+	<!-- <section class="featured-event" id="featured-event">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-8 event-block">
@@ -687,9 +622,9 @@
 							<h3><span class="seconds">49</span> <small>Seconds</small></h3>
 						</li>
 					</ul>
-				</div> <!-- .col-lg-8 ends -->
+				</div> --> <!-- .col-lg-8 ends -->
 
-				<div class="col-lg-4 facts-block">
+				<!-- <div class="col-lg-4 facts-block">
 					<ul class="facts-content">
 						<li>
 							<div class="icon-block"><i class="icon ion-ios-people-outline"></i></div>
@@ -711,11 +646,11 @@
 							<h3><strong class="timer" data-from="1000" data-to="343" data-speed="5000">343</strong> <span>Awards</span></h3>
 						</li>
 					</ul>
-				</div> <!-- .col-lg-4 ends -->
-			</div> <!-- .row ends -->
+				</div>  --><!-- .col-lg-4 ends -->
+			<!-- </div> --> <!-- .row ends -->
 			
-		</div> <!-- .container-fluid ends -->
-	</section> <!-- .featured-event ends -->
+		<!-- </div> --> <!-- .container-fluid ends -->
+	<!-- </section> --> <!-- .featured-event ends -->
 
 
 	<!-- OUR MEMBERS -->
@@ -868,164 +803,8 @@
 
 
 	<!-- MAIN FOOTER -->
-
-	<footer class="main-footer section-block" id="main-footer">
-		<div class="container">
-			<div class="row section-content">
-				<div class="col-md-3 col-sm-6 widget about">
-					<h3 class="widget-title">About Politics</h3>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incit anim id est laborum.
-					</p>
-
-					<ul class="contact-list">
-						<li>
-							<i class="icon ion-ios-location-outline"></i>
-							<address>
-								82, Bardeshi, Amin Bazar <br>
-								Savar, Dhaka - 1348
-							</address>
-						</li>
-						<li>
-							<i class="icon ion-ios-email-outline"></i>
-							<a href="mailto:email@website.com">email@website.com</a>
-						</li>
-						<li>
-							<i class="icon ion-ios-telephone-outline"></i>
-							<a href="#">+88 111 - 222 - 3456789</a>
-						</li>
-					</ul>
-				</div> <!-- .col-md-3 ends -->
-				<div class="col-md-3 col-sm-6 widget quick-links clearfix">
-					<h3 class="widget-title">Quick links</h3>
-					<div class="link-block">
-						<h4>About</h4>
-						<ul class="link-list">
-							<li><a href="#">Our Mission</a></li>
-							<li><a href="#">Our Vision</a></li>
-							<li><a href="#">Future Plan</a></li>
-						</ul>
-					</div> <!-- .link-block ends -->
-					<div class="link-block">
-						<h4>Get Involved</h4>
-						<ul class="link-list">
-							<li><a href="#">Become Member</a></li>
-							<li><a href="#">Become Volunteer</a></li>
-							<li><a href="#">Donate Us</a></li>
-						</ul>
-					</div> <!-- .link-block ends -->
-					<div class="link-block">
-						<h4>News &amp; Videos</h4>
-						<ul class="link-list">
-							<li><a href="#">Our Blog</a></li>
-							<li><a href="#">Press Release</a></li>
-							<li><a href="#">Videos</a></li>
-						</ul>
-					</div> <!-- .link-block ends -->
-					<div class="link-block">
-						<h4>Issues</h4>
-						<ul class="link-list">
-							<li><a href="#">Foreign Relations</a></li>
-							<li><a href="#">Education</a></li>
-							<li><a href="#">Economy</a></li>
-						</ul>
-					</div> <!-- .link-block ends -->
-				</div> <!-- .col-md-3 ends -->
-				<!-- <div class="col-md-3 col-sm-6 widget photo-block">
-					<h3 class="widget-title">Photo Gallery</h3>
-
-					<ul class="gallery-photos clearfix">
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-					</ul> --> <!-- .gallery-photos ends -->
-				<!-- </div> --> <!-- .col-md-3 ends -->
-
-				<!-- <div class="clearfix visible-xs"></div> -->
-
-				<div class="col-md-3 col-sm-6 widget twitter-updates">
-					<h3 class="widget-title">Twitter Updates</h3>
-
-					<ul class="twitter-update-list">
-						<li>
-							<i class="icon ion-social-twitter"></i>
-							<p>
-								<a class="id-link" href="#">@rainydesign</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo <a class="tweet-link" href="#">http://bit.ly/3As8ds</a>
-							</p>
-						</li>
-
-						<li>
-							<i class="icon ion-social-twitter"></i>
-							<p>
-								<a class="id-link" href="#">@rainydesign</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo <a class="tweet-link" href="#">http://bit.ly/3As8ds</a>
-							</p>
-						</li>
-					</ul>
-				</div> <!-- .col-md-3 ends -->
-			</div> <!-- .row section-content ends -->
-		</div> <!-- .container ends -->
-
-		<div class="bottom-bar">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-4 copyright-block">
-						<p>All rights reserved &copy; 2020 Vision</p>
-					</div> <!-- .col-md-4 ends -->
-					<div class="col-lg-4 social-block">
-						<ul class="social-icon-list list-inline">
-							<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
-							<li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
-							<li><a href="#"><i class="icon ion-social-googleplus"></i></a></li>
-							<li><a href="#"><i class="icon ion-social-dribbble"></i></a></li>
-						</ul>
-					</div> <!-- .col-lg-4 ends -->
-					<div class="col-lg-4 extra-links-block">
-						<ul class="extra-links list-inline">
-							<li><a href="#">Terms &amp; Condition</a></li>
-							<li><a href="#">Legal</a></li>
-							<li><a href="#">Privacy policy</a></li>
-						</ul> <!-- .extra-links ends -->
-					</div> <!-- .col-lg-4 ends -->
-				</div> <!-- .row ends -->
-			</div> <!-- .container-fluid ends -->
-		</div> <!-- .bottom-bar ends -->
-	</footer> <!-- .main-fooer ends -->
-
-
-	<!-- SCRIPTS -->
-	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-	<script type="text/javascript" src="js/slick.min.js"></script>
-	<script type="text/javascript" src="js/jquery.downCount.js"></script>
-	<script type="text/javascript" src="js/jquery.countTo.js"></script>
-	<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+<?php
+include('footer.php')
+?>
 </body>
 </html>
