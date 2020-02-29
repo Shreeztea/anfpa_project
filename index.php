@@ -68,16 +68,35 @@
 					</ul> <!-- .nav navbar-nav ends -->
 
 					<ul class="nav navbar-nav navbar-right">
+						<?php 
+							include "admin/db.php";
+			                $get_cat = "SELECT * FROM category";
+			                $run_cat = mysqli_query($con, $get_cat);
+			                while ($row_cat=mysqli_fetch_array($run_cat)) {
+			                    $catId = $row_cat['id'];
+			                    $eng_title = $row_cat['name_eng']; 
+			                    $nep_title = $row_cat['name_nep'];
+			                    $get_sub = "SELECT * FROM sub_category where category_id=".$catId;
+
+			                $run_sub = mysqli_query($con, $get_sub);
+			                $row_count = mysqli_num_rows($run_sub);
+							if($row_count > 1)
+							{
+						?>
 						 <li class="dropdown">
 
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News<span class="caret"></span></a>
-
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $eng_title;?><span class="caret"></span></a>
+							
 							<ul class="dropdown-menu">
-								<li><a href="blog.php">Province 1</a></li>
-							</ul> 
-						<li><a href="#press-release">Media</a></li>
-						<!-- <li><a data-scroll href="#campaign-events">Campaigns</a></li> -->
-						<li><a  href="#featured-event">Events</a></li>
+							<?php while ($row_sub = mysqli_fetch_array($run_sub)) {?>
+								<li><a href="blog.php"><?php echo $row_sub['name_eng'];?></a></li>
+							<?php } ?>
+							</ul> </li><?php }
+											else{ ?>
+							<li><a href="#press-release"><?php echo $eng_title;?></a></li>
+						<?php } }?>
+						
+						<!-- <li><a  href="#featured-event">Events</a></li> -->
 						<li><a href="contact.html">Contact</a></li>
 						
 					</ul> <!-- .nav navbar-nav ends -->
