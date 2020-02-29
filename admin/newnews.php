@@ -26,10 +26,10 @@ include "./db.php";
 // session_start();
 if (isset($_POST['submit'])) {
 
-    $title= $_POST['news_title'];
-    $article= $_POST['news_article'];
-    $nep_title= $_POST['nep_title'];
-    $nep_article= $_POST['nep_article'];
+    $title= addslashes($_POST['news_title']);
+    $article= addslashes($_POST['news_article']);
+    $nep_title= addslashes($_POST['nep_title']);
+    $nep_article= addslashes($_POST['nep_article']);
     $cat= $_POST['cat'];
     $subcat= $_POST['subcat'];
     if(isset($_POST['publish'])){

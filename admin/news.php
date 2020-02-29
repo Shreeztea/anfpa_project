@@ -1,7 +1,28 @@
 <?php include "header.php"; 
 include "./db.php";
 ?>
+<style type="text/css">
+  p{
+  line-height:1.2em;
+  height:3.6em;
+  overflow:hidden;
+}
+table { 
+  
+   table-layout: fixed;
+  width: 100%;
+  /*white-space: nowrap;*/
+}
+/*  td{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 20px;
+  text-overflow: ellipsis;
+}*/
 
+
+
+</style>
 <body class="">
   <div class="wrapper">
 
