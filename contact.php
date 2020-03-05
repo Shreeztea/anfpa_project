@@ -2,9 +2,10 @@
 include('header.php');
 ?>
 	<section class="page-banner">
-		<div class="google-map" id="google-map">
-							
-		</div> <!-- .google-map ends -->
+		<!-- <div class="google-map" id="google-map"> -->
+			<img src="img/top.png" class="img-responsive" style="width: 100%;">				
+		<!-- </div> --> <!-- .google-map ends -->
+
 	</section> <!-- .contact ends -->
 
 	<section class="page-content">
@@ -21,8 +22,8 @@ include('header.php');
 							<div class="col-md-4 address-block">
 								<div class="content-wrapper">
 									<div class="icon-block"><i class="icon ion-ios-location"></i></div>
-									<h3>Address</h3>
-									<address>Kathmandu Nepal</address>
+									<h3 style="color: red;">Address</h3>
+									<address><H5>Madan Nagar,&nbsp;&nbsp;Balkhu,&nbsp;&nbsp;Kathmandu</H5></address>
 								</div> <!-- .content-wrapper ends -->
 								
 							</div> <!-- .col-md-4 ends -->
@@ -30,18 +31,19 @@ include('header.php');
 							<div class="col-md-4 phone-block">
 								<div class="content-wrapper">
 									<div class="icon-block"><i class="icon ion-ios-telephone"></i></div>
-									<h3>Phone</h3>
-									<a href="#">+977 9818000000</a>
-									<a href="#">+977 9818000000</a>
+									<h3 style="color: red;">Phone</h3>
+									<h5>Tel: +977-(01)-4036203</h5>
+									<h5>Fax: +977-14036304</h5>
+									<h5>P.O Box No: 273 Lalitpur</h5>
 								</div> <!-- .content-wrapper ends -->
 							</div> <!-- .col-md-4 ends -->
 
 							<div class="col-md-4 email-block">
 								<div class="content-wrapper">
 									<div class="icon-block"><i class="icon ion-email"></i></div>
-									<h3>Email</h3>
-									<a href="#">email@website.com</a>
-									<a href="#">email2@website.com</a>
+									<h3 style="color: red;">Email</h3>
+									<h5>anpfa@anpfa.org.np</h5>
+									<h5>www.anpfa.org.np</h5>
 								</div> <!-- .content-wrapper ends -->
 							</div> <!-- .col-md-4 ends -->
 						</div> <!-- .row ends -->
