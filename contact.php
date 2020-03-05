@@ -60,35 +60,35 @@ include('header.php');
 										<p></p>
 									</div>
 								
-									<form class="" id="politics-contact" method="POST" action="php/form-handler.php">
+									<!-- <form class="" id="politics-contact" method="POST" action="php/form-handler.php">
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
 													<label class="sr-only" for="name">Name:</label>
 													<input type="text" class="form-control" id="name" name="name" placeholder="Your name">
-												</div> <!-- .form-group ends -->
+												</div> --> <!-- .form-group ends -->
 
-												<div class="form-group">
+												<!-- <div class="form-group">
 													<label class="sr-only" for="email">Email:</label>
 													<input type="email" class="form-control" id="email" name="email" placeholder="Your email">
-												</div> <!-- .form-group ends -->
+												</div> --> <!-- .form-group ends -->
 
-												<div class="form-group">
-													<label class="sr-only" for="url">Website:</label>
-													<input type="url" class="form-control" id="url" name="url" placeholder="Your website">
-												</div> <!-- .form-group ends -->
+												<!-- <div class="form-group">
+													<label class="sr-only" for="contact">Contact:</label>
+													<input type="contact" class="form-control" id="contact" name="contact" placeholder="Your Contact Number">
+												</div> --> <!-- .form-group ends -->
 
-											</div> <!-- .col-md-6 ends -->
+											<!-- </div> --> <!-- .col-md-6 ends -->
 
-											<div class="col-md-6">
+											<!-- <div class="col-md-6">
 												<label class="sr-only" for="message">Message:</label>
 												<textarea class="form-control" id="message" name="message" placeholder="Your message here"></textarea>
 
 
 												<button type="submit" class="btn btn-main btn-normal pull-right" name="submit">Submit</button>
-											</div> <!-- .col-md-6 ends -->
-										</div> <!-- .row ends -->
-									</form> <!-- .redone-contact ends -->
+											</div> --> <!-- .col-md-6 ends -->
+										<!-- </div> --> <!-- .row ends -->
+									<!-- </form> --> <!-- .redone-contact ends -->
 								</div> <!-- .col-md-8 form-block ends -->
 							</div> <!-- .row section-content ends -->
 						</div> <!-- .container ends -->
