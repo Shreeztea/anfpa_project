@@ -127,7 +127,7 @@
 					<div class="carousel-caption">
 					
 						<div class="caption-content">
-							<h1><small data-animation="animated fadeInDown">A beautiful Day</small> <span data-animation="animated fadeInDown">The Judgement day</span></h1>
+							<h1><small data-animation="animated fadeInDown">A beautiful Day</small><!--  <span data-animation="animated fadeInDown">The Judgement day</span> --></h1>
 							<p data-animation="animated fadeInUp">
 								Quisque ut nisi. Sed fringilla et nibh. Ut varius tincidunt libero. Maecenas  he nunc fringilla toma dermajhe kikeu tomra kakebolo na amadero ase bondhuam manbona tobeb tristique.
 							</p>
@@ -162,11 +162,11 @@
 					<i class="icon ion-ios-star"></i>
 					<i class="icon ion-ios-star"></i>
 				</div>
-				<p>
+				<!-- <p>
 					Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident.
-				</p>
+				</p> -->
 			</div> <!-- .section-title-block ends -->
 
 			<div class="row section-content">
@@ -213,8 +213,7 @@
 			<div class="section-title-block-2">
 				<h3>Whats New</h3>
 				<p>
-					Lorem ipsum in reprehe velit essepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui id est laborum.
+					Know about our activities more here.
 				</p>
 			</div> <!-- .section-title-block-2 ends -->
 
@@ -224,7 +223,7 @@
 						<img class="img-responsive" src="wall.js/ANPFA image/3.jpg" alt="latest news image">
 
 						<div class="news-content">
-							<a class="news-category" href="#">World War</a>
+							<a class="news-category" href="#">6th Conference</a>
 							<div class="content-wrapper">
 								<h4>America needs a real hero to work like me</h4>
 								<p>
@@ -304,8 +303,7 @@
 			<div class="section-title-block-2">
 				<h3>About Us</h3>
 				<p>
-					Lorem ipsum in reprehe velit essn
-					proident, sunt eprehe velin culpa qui id est laborum.
+					<strong>Mission/Vision/Objectives</strong>
 				</p>
 			</div> <!-- .section-title-block-2 ends -->
 			<div class="row section-content">
@@ -314,8 +312,7 @@
 						<i class="icon ion-ios-paw-outline"></i>
 						<h3>Our Mission</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. 
+							We endeavor to be a very strong and influential voice of small scale farmers in Nepal and all over the world.
 						</p>
 						<a class="read-more-link" href="aboutus.php">Learn More</a>
 					</div> <!-- .content-block ends -->
@@ -337,8 +334,8 @@
 						<i class="icon ion-ios-paper-outline"></i>
 						<h3>Our Objectives</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. 
+							*To mobilize all section of Peasants populace in favor of genuine agrarian reforms<br>
+							*To strengthen and empower peasants movements 
 						</p>
 						<a class="read-more-link" href="aboutus.php">Learn More</a>
 					</div> <!-- .content-block ends -->
