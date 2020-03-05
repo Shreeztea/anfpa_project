@@ -708,11 +708,11 @@
 
 				<div class="col-lg-3 member-block">
 					<div class="content-wrapper">
-						<img class="img-responsive" src="http://placehold.it/265x375" alt="member photo">
+						<img class="img-responsive" src="img/abc.jpg" style="height: 375px; " alt="member photo">
 
 						<div class="member-content">
-							<h4 class="member-name">James Anderson</h4>
-							<span class="designation">Member</span>
+							<h4 class="member-name">Prem Dangal</h4>
+							<span class="designation">General Secretary</span>
 							<div class="hover-content">
 								<p>
 									Excepteur sint occaecat cupidatat non
