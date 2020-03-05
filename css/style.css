@@ -1737,7 +1737,7 @@ ul {
 .our-members .content-wrapper .member-content .designation {
   position: absolute;
   font-size: 12px;
-  top: 60px;
+  top: 80px;
   right: -33px;
   transform: rotate(-90deg);
   color: green;
