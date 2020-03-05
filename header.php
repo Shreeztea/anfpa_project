@@ -52,7 +52,7 @@
 					<ul class="nav navbar-nav navbar-left">
 						<li><a data-scroll href="index.php">Home</a></li>
 						<li><a data scroll href="index.php#quick-links-block">About Us</a></li>
-						<li><a  href="#our-members">Members</a></li>
+						<li><a  href="index.php#our-members">Members</a></li>
 						<li><a href="resource.php">Resource</a></li>
 						
 					</ul> <!-- .nav navbar-nav ends -->
@@ -83,7 +83,7 @@
 							<?php } ?>
 							</ul> </li><?php }
 											else{ ?>
-							<li><a href="index.php#press-release"><?php echo $eng_title;?></a></li>
+							<li><a href="blog.php"><?php echo $eng_title;?></a></li>
 						<?php } }?>
 						
 						<!-- <li><a  href="#featured-event">Events</a></li> -->

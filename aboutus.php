@@ -4,10 +4,9 @@ include('header.php');
 <section class="page-content section-block">
 		<div class="container">
 			<div class="section-title-block-2">
-				<h3>MISSION/VISION/OBJECTIVES</h3>
+				<h3>About ANFPA</h3>
 				<p>
-					Lorem ipsum in reprehe velit essn
-					proident, sunt eprehe velin culpa qui id est laborum.
+					<strong>MISSION/VISION/OBJECTIVES</strong>
 				</p>
 			</div> <!-- .section-title-block-2 ends -->
 			<div class="row section-content">
