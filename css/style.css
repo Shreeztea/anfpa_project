@@ -185,15 +185,15 @@
 }
 .block-title {
   font-size: 18px;
-  color: #0052a5;
+  color: #DD0C36;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 36px;
 }
 .page-banner {
-  height: 260px;
-  background: url(http://placehold.it/1920x260) no-repeat center;
+  /*height: 240px;*/
+  /*background: url(http://placehold.it/1920x260) no-repeat center;*/
   background-size: cover;
   color: #ffffff;
   position: relative;
@@ -206,7 +206,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 82, 165, 0.7);
+  background: #DD0C36;
   z-index: -1;
 }
 .page-banner .container {
@@ -2464,13 +2464,13 @@ ul {
 }
 .contact-options .content-wrapper {
   text-align: center;
-  border: 6px solid #e9e9e9;
+  border: 6px solid #00a543;
   padding-top: 3em;
   padding-bottom: 3em;
 }
 .contact-options .content-wrapper:hover .icon-block {
   background: transparent;
-  color: #0052a5;
+  color: #0c501d;
 }
 .contact-options .content-wrapper .icon-block {
   font-size: 24px;
@@ -2478,13 +2478,13 @@ ul {
   height: 2em;
   line-height: calc(2em - 2px);
   text-align: center;
-  background: #0052a5;
+  background: #00a543;
   color: #ffffff;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   transition: .3s;
-  border: 2px solid #0052a5;
+  border: 2px solid #0c501d;
 }
 .contact-options .content-wrapper a {
   color: #aaaaaa;
