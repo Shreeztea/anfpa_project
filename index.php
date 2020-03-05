@@ -83,7 +83,7 @@
 							<?php } ?>
 							</ul> </li><?php }
 											else{ ?>
-							<li><a href="#press-release"><?php echo $eng_title;?></a></li>
+							<li><a href="blog.php?cat=<?php echo $catId;?>"><?php echo $eng_title;?></a></li>
 						<?php } }?>
 						
 						<!-- <li><a  href="#featured-event">Events</a></li> -->

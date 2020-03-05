@@ -47,10 +47,14 @@ if(isset($_GET['cat'])){
 											$yourText = $row_con['desc_eng'];
 											if (strlen($string) > 350) {
 											    $stringCut = substr($string, 0, 350);
-											    
+											    echo $stringCut;
+											    echo " ...";
+											}else {
+												echo $string;
 											}
-											 echo $stringCut;
+											 
 											?>
+											
 										</p>
 										<a class="read-more-link" href="single-post.php?id=<?php echo $row_con['id'];?>">Continue Reading</a>
 									</div> <!-- .content-wrapper ends -->
@@ -74,7 +78,12 @@ if(isset($_GET['cat'])){
 			</div> <!-- .row ends -->
 		</div> <!-- .container ends -->
 	</section> <!-- .page-content ends -->
-<?php }} ?>
+<?php }else{
+	echo "<h1 class='text-center text-danger'>There is no content to show at the moment.</h1>";
+	echo "<h2 class='text-center text-success'>Please Visit Later!</h2>";
+}
+
+} ?>
 <?php
 include('footer.php');
 ?>	
