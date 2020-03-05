@@ -115,9 +115,9 @@
 						</div> --> <!-- .caption-image ends -->
 						<div class="caption-content">
 							<h1><span data-animation="animated fadeInRight">All Nepal Peasants Fedration Association</span></h1>
-							<p data-animation="animated fadeInUp">
+							<!-- <p data-animation="animated fadeInUp">
 								Quisque ut nisi. Sed fringilla et nibh. Ut varius tincidunt libero. Maecenas  he nunc fringilla tristique.
-							</p>
+							</p> -->
 						</div> <!-- .caption-content ends -->
 						
 					</div> <!-- .carousel-caption ends -->
@@ -128,9 +128,9 @@
 					
 						<div class="caption-content">
 							<h1><small data-animation="animated fadeInDown">A beautiful Day</small><!--  <span data-animation="animated fadeInDown">The Judgement day</span> --></h1>
-							<p data-animation="animated fadeInUp">
+							<!-- <p data-animation="animated fadeInUp">
 								Quisque ut nisi. Sed fringilla et nibh. Ut varius tincidunt libero. Maecenas  he nunc fringilla toma dermajhe kikeu tomra kakebolo na amadero ase bondhuam manbona tobeb tristique.
-							</p>
+							</p> -->
 						</div> <!-- .caption-content ends -->
 						
 					</div> <!-- .carousel-caption ends -->
@@ -664,15 +664,14 @@
 			<div class="row section-content">
 				<div class="col-lg-3 member-block">
 					<div class="content-wrapper">
-						<img class="img-responsive" src="img/bam.jpg"alt="member photo">
+						<img class="img-responsive" src="img/bam.jpg" style="height: 375px; "alt="member photo">
 
 						<div class="member-content">
 							<h4 class="member-name">Bamdev Gautam</h4>
 							<span class="designation">President</span>
 							<div class="hover-content">
 								<p>
-									Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									Senior and prominent peasants leader honorable Bamdev Gautam is current Deputy Prime Minister and Home Minister of Nepal. 
 								</p>
 								<ul class="social-links">
 									<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
@@ -687,15 +686,14 @@
 
 				<div class="col-lg-3 member-block">
 					<div class="content-wrapper">
-						<img class="img-responsive" src="http://placehold.it/265x375" alt="member photo">
+						<img class="img-responsive" src="img/shanta.jpg" style="height: 375px;" alt="member photo">
 
 						<div class="member-content">
-							<h4 class="member-name">Alex Murphy</h4>
-							<span class="designation">Chairman</span>
+							<h4 class="member-name">Shanta Manavi</h4>
+							<span class="designation">Vice Chairperson</span>
 							<div class="hover-content">
 								<p>
-									Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									Shanta Manavi is a renowned women peasant's leader and member of Constituent Assembly- Nepal.
 								</p>
 								<ul class="social-links">
 									<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
