@@ -110,7 +110,7 @@
 }
 .section-title-block h2 span {
   font-size: 16px;
-  color: #c31f30;
+  color: black;
   display: block;
   margin-top: 8px;
   letter-spacing: 5px;
@@ -275,7 +275,7 @@ h6 {
  ===============================*/
 body {
   font-family: 'PT Sans', sans-serif;
-  color: #aaaaaa;
+  color: black;
 }
 a {
   color: #0052a5;
@@ -969,18 +969,18 @@ ul {
   z-index: -1;
 }
 .quick-links-block .mission-block {
-  background: #f7f7f7 url(http://placehold.it/600x400) no-repeat center;
+  /*background: #f7f7f7 url(http://placehold.it/600x400) no-repeat center;*/
   background-size: cover;
 }
 .quick-links-block .vision-block {
-  background: #f7f7f7 url(http://placehold.it/600x400) no-repeat center;
+  /*background: #f7f7f7 url(http://placehold.it/600x400) no-repeat center;*/
   background-size: cover;
 }
 .quick-links-block .vision-block:after {
-  background: rgba(195, 31, 48, 0.8) !important;
+  background: rgb(223,12,19) !important;
 }
 .quick-links-block .issue-block {
-  background: #f7f7f7 url(http://placehold.it/600x400) no-repeat center;
+  /*background: #f7f7f7 url(http://placehold.it/600x400) no-repeat center;*/
   background-size: cover;
 }
 .quick-links-block .content-wrapper {

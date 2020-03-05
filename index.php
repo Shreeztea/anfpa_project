@@ -53,7 +53,7 @@
 						<li class="active"><a data-scroll href="#">Home <span class="sr-only">(current)</span></a></li>
 						<li><a data scroll href="#quick-links-block">About Us</a></li>
 						<li><a  href="#our-members">Members</a></li>
-						<li><a href="blog.php">Programs</a></li>
+						<li><a href="resource.php">Resource</a></li>
 						
 					</ul> <!-- .nav navbar-nav ends -->
 
@@ -317,7 +317,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. 
 						</p>
-						<a class="read-more-link" href="single-post.html">Learn More</a>
+						<a class="read-more-link" href="aboutus.php">Learn More</a>
 					</div> <!-- .content-block ends -->
 				</div> <!-- col-md-4 ends -->
 
@@ -326,22 +326,21 @@
 						<i class="icon ion-ios-eye-outline"></i>
 						<h3>Our Vision</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. 
+						 ANPFa envision sovereign individuals in an equitable neo-socialist society enjoying their rights for dignified life in the food
 						</p>
-						<a class="read-more-link" href="#">Learn More</a>
+						<a class="read-more-link" href="aboutus.php">Learn More</a>
 					</div> <!-- .content-block ends -->
 				</div> <!-- col-md-4 ends -->
 
 				<div class="col-md-4 issue-block">
 					<div class="content-wrapper">
 						<i class="icon ion-ios-paper-outline"></i>
-						<h3>Our Issue</h3>
+						<h3>Our Objectives</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. 
 						</p>
-						<a class="read-more-link" href="#">Learn More</a>
+						<a class="read-more-link" href="aboutus.php">Learn More</a>
 					</div> <!-- .content-block ends -->
 				</div> <!-- col-md-4 ends -->
 			</div> <!-- .row section-content ends -->
@@ -427,7 +426,7 @@
 	<section class="testimonial section-block" id="testimonial">
 		<div class="container">
 			<div class="section-title-block">
-				<h2>Testimonial <span>what our supporter's say</span></h2>
+				<h2>Our Journey</h2>
 				<div class="title-style">
 					<i class="icon ion-ios-star"></i>
 					<i class="icon ion-ios-star"></i>

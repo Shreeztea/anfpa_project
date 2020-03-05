@@ -2,19 +2,11 @@
 		<div class="container">
 			<div class="row section-content">
 				<div class="col-md-4 col-sm-6 widget about">
-					<h3 class="widget-title">About Politics</h3>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incit anim id est laborum.
-					</p>
-
+					<h3 class="widget-title">About ANPFA</h3>
 					<ul class="contact-list">
 						<li>
 							<i class="icon ion-ios-location-outline"></i>
-							<address>
-								Kathmandu, Nepal
-							</address>
+							<a href="#">Kathmandu, Nepal</a>	
 						</li>
 						<li>
 							<i class="icon ion-ios-email-outline"></i>
@@ -29,73 +21,24 @@
 				<div class="col-md-4 col-sm-6 widget quick-links clearfix">
 					<h3 class="widget-title">Quick links</h3>
 					<div class="link-block">
-						<h4>About</h4>
 						<ul class="link-list">
-							<li><a href="#">Our Mission</a></li>
-							<li><a href="#">Our Vision</a></li>
-							<li><a href="#">Future Plan</a></li>
-						</ul>
-					</div> <!-- .link-block ends -->
-					<div class="link-block">
-						<h4>Get Involved</h4>
-						<ul class="link-list">
-							<li><a href="#">Become Member</a></li>
-							<li><a href="#">Become Volunteer</a></li>
-							<li><a href="#">Donate Us</a></li>
-						</ul>
-					</div> <!-- .link-block ends -->
-					<div class="link-block">
-						<h4>News &amp; Videos</h4>
-						<ul class="link-list">
-							<li><a href="#">Our Blog</a></li>
-							<li><a href="#">Press Release</a></li>
-							<li><a href="#">Videos</a></li>
-						</ul>
-					</div> <!-- .link-block ends -->
-					<div class="link-block">
-						<h4>Issues</h4>
-						<ul class="link-list">
-							<li><a href="#">Foreign Relations</a></li>
-							<li><a href="#">Education</a></li>
-							<li><a href="#">Economy</a></li>
+							<li><a href="aboutus.php">Our Mission</a></li><br>
+							<li><a href="aboutus.php">Our Vision</a></li><br>
+							<li><a href="aboutus.php">Our Objectives</a></li>
 						</ul>
 					</div> <!-- .link-block ends -->
 				</div> <!-- .col-md-3 ends -->
-				<!-- <div class="col-md-3 col-sm-6 widget photo-block">
-					<h3 class="widget-title">Photo Gallery</h3>
-
-					<ul class="gallery-photos clearfix">
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-						<li>
-							<a href="#"><img class="img-responsive" src="http://placehold.it/95x68" alt="gallery image"></a>
-						</li>
-					</ul> --> <!-- .gallery-photos ends -->
-				<!-- </div> --> <!-- .col-md-3 ends -->
-
-				<!-- <div class="clearfix visible-xs"></div> -->
+				<div class="col-md-4 col-sm-6 widget quick-links clearfix">
+					<h3 class="widget-title">Connect Through</h3>
+					<div class="social-block">
+						<ul class="social-icon-list list-inline">
+							<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+							<li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+							<li><a href="#"><i class="icon ion-social-googleplus"></i></a></li>
+							<li><a href="#"><i class="icon ion-social-dribbble"></i></a></li>
+						</ul>
+					</div> <!-- .col-lg-4 ends -->
+				</div>
 			</div> <!-- .row section-content ends -->
 		</div> <!-- .container ends -->
 

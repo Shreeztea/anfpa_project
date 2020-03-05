@@ -22,7 +22,7 @@ include('header.php');
 								<div class="content-wrapper">
 									<div class="icon-block"><i class="icon ion-ios-location"></i></div>
 									<h3>Address</h3>
-									<address>22, Bardeshi, Amin Bazar <br> Savar, Dhaka - 1348</address>
+									<address>Kathmandu Nepal</address>
 								</div> <!-- .content-wrapper ends -->
 								
 							</div> <!-- .col-md-4 ends -->
@@ -31,8 +31,8 @@ include('header.php');
 								<div class="content-wrapper">
 									<div class="icon-block"><i class="icon ion-ios-telephone"></i></div>
 									<h3>Phone</h3>
-									<a href="#">+ (111) - 232 - 987654</a>
-									<a href="#">+ (111) - 232 - 987655</a>
+									<a href="#">+977 9818000000</a>
+									<a href="#">+977 9818000000</a>
 								</div> <!-- .content-wrapper ends -->
 							</div> <!-- .col-md-4 ends -->
 
