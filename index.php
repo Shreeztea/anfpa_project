@@ -299,7 +299,7 @@
 	<!-- QUICK LINKS BLOCK -->
 
 	<section class="quick-links-block" id="quick-links-block">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="section-title-block-2">
 				<h3>About Us</h3>
 				<p>
@@ -323,7 +323,7 @@
 						<i class="icon ion-ios-eye-outline"></i>
 						<h3>Our Vision</h3>
 						<p>
-						 ANPFa envision sovereign individuals in an equitable neo-socialist society enjoying their rights for dignified life in the food
+						 ANPFa envision sovereign individuals in an equitable neo-socialist society enjoying their rights for dignified 
 						</p>
 						<a class="read-more-link" href="aboutus.php">Learn More</a>
 					</div> <!-- .content-block ends -->
@@ -334,8 +334,7 @@
 						<i class="icon ion-ios-paper-outline"></i>
 						<h3>Our Objectives</h3>
 						<p>
-							*To mobilize all section of Peasants populace in favor of genuine agrarian reforms<br>
-							*To strengthen and empower peasants movements 
+							*To mobilize all section of Peasants populace in favor of genuine agrarian reforms
 						</p>
 						<a class="read-more-link" href="aboutus.php">Learn More</a>
 					</div> <!-- .content-block ends -->
@@ -347,7 +346,7 @@
 
 	<!-- PRESS RELEASE -->
 
-	<section class="press-release section-block-2" id="press-release">
+	<!-- <section class="press-release section-block-2" id="press-release">
 		<div class="container">
 			<div class="section-title-block-2">
 				<h3>Press Release</h3>
@@ -355,15 +354,15 @@
 					Lorem ipsum in reprehe velit essn
 					proident, sunt eprehe velin culpa qui id est laborum.
 				</p>
-			</div> <!-- .section-title-block-2 ends -->
+			</div> --> <!-- .section-title-block-2 ends -->
 
-			<div class="row section-content">
+			<!-- <div class="row section-content">
 				<div class="col-md-4">
 					<div class="image-block">
 						<img class="img-responsive" src="http://placehold.it/360x258" alt="press release image">
-					</div> <!-- .image-block ends -->
+					</div> --> <!-- .image-block ends -->
 
-					<div class="content-block">
+					<!-- <div class="content-block">
 						<h3>Epteur sint ocecat cutat no</h3>
 
 						<div class="content-details">
@@ -373,16 +372,16 @@
 								tempor dolore mag culit anim id est laborum.
 							</p>
 							<a class="read-more-link" href="#">Read More</a>
-						</div> <!-- .content-details ends -->
-					</div> <!-- .content-block ends -->
-				</div> <!-- .col-md-4 ends -->
+						</div> --> <!-- .content-details ends -->
+					<!-- </div> --> <!-- .content-block ends -->
+				<!-- </div>  --><!-- .col-md-4 ends -->
 
-				<div class="col-md-4">
+				<!-- <div class="col-md-4">
 					<div class="image-block">
 						<img class="img-responsive" src="http://placehold.it/360x258" alt="press release image">
-					</div> <!-- .image-block ends -->
+					</div>  --><!-- .image-block ends -->
 
-					<div class="content-block">
+					<!-- <div class="content-block">
 						<h3>Epteur sint ocecat cutat no</h3>
 
 						<div class="content-details">
@@ -392,16 +391,16 @@
 								tempor dolore mag culit anim id est laborum.
 							</p>
 							<a class="read-more-link" href="#">Read More</a>
-						</div> <!-- .content-details ends -->
-					</div> <!-- .content-block ends -->
-				</div> <!-- .col-md-4 ends -->
+						</div> --> <!-- .content-details ends -->
+					<!-- </div> --> <!-- .content-block ends -->
+				<!-- </div> --> <!-- .col-md-4 ends -->
 
-				<div class="col-md-4">
+				<!-- <div class="col-md-4">
 					<div class="image-block">
 						<img class="img-responsive" src="http://placehold.it/360x258" alt="press release image">
-					</div> <!-- .image-block ends -->
+					</div> --> <!-- .image-block ends -->
 
-					<div class="content-block">
+					<!-- <div class="content-block">
 						<h3>Epteur sint ocecat cutat no</h3>
 
 						<div class="content-details">
@@ -411,12 +410,12 @@
 								tempor dolore mag culit anim id est laborum.
 							</p>
 							<a class="read-more-link" href="#">Read More</a>
-						</div> <!-- .content-details ends -->
-					</div> <!-- .content-block ends -->
-				</div> <!-- .col-md-4 ends -->
-			</div> <!-- .row section-content ends -->
-		</div> <!-- .container ends -->
-	</section> <!-- .press-release ends -->
+						</div> --> <!-- .content-details ends -->
+					<!-- </div> --> <!-- .content-block ends -->
+				<!-- </div> --> <!-- .col-md-4 ends -->
+			<!-- </div> --> <!-- .row section-content ends -->
+		<!-- </div> --> <!-- .container ends -->
+	<!-- </section> --> <!-- .press-release ends -->
 
 	<!-- TESTIMONIAL -->
 
@@ -519,15 +518,15 @@
 
 	<!-- CAMPAIGN EVENTS -->
 
-	<section class="campaign-events section-block-2" id="campaign-events">
+	<!-- <section class="campaign-events section-block-2" id="campaign-events">
 		<div class="container">
 			<div class="row section-content">
 				<div class="col-lg-6 campaign-block">
 					<h3 class="block-title">Featured Campaign</h3>
 					<div class="image-wrapper">
 						<img class="img-responsive" src="http://placehold.it/420x339" alt="campaign images">
-					</div> <!-- .image-wrapper ends -->
-					<div class="campaign-content">
+					</div>  --><!-- .image-wrapper ends -->
+					<!-- <div class="campaign-content">
 						<h2>Campaign for federal central election</h2>
 
 						<div class="campaign-details">
@@ -543,57 +542,57 @@
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</p>
 							<a class="read-more-link" href="#">Read More</a>
-						</div> <!-- .campaign-details ends -->
-					</div> <!-- .campaign-content ends -->
-				</div> <!-- .col-lg-6 ends -->
-				<div class="col-lg-6 event-block">
+						</div> --> <!-- .campaign-details ends -->
+					<!-- </div> --> <!-- .campaign-content ends -->
+				<!-- </div> --> <!-- .col-lg-6 ends -->
+				<!-- <div class="col-lg-6 event-block">
 					<h3 class="block-title">Upcomming Events</h3>
 
 					<ul class="event-list">
 						<li class="event clearfix">
 							<div class="image-block">
 								<img class="img-responsive" src="http://placehold.it/500x357" alt="event image">
-							</div> <!-- .image-block ends -->
-							<div class="content-block">
+							</div> --> <!-- .image-block ends -->
+							<!-- <div class="content-block">
 								<span class="event-date">May 24, 2020</span>
 								<div class="event-details">
 									<h2>Eepteur sint o erunt mo est laboru</h2>
 									<ul class="event-meta">
 										<li>Time: <span>10.00 am</span></li>
 										<li>Place: <span>Kathmandu University</span></li>
-									</ul> <!-- .event-meta ends -->
-									<div class="event-footer">
+									</ul> --> <!-- .event-meta ends -->
+									<!-- <div class="event-footer">
 										<a class="join-link" href="#">Join Now</a>
 										<a class="read-more-link" href="#">Learn More</a>
-									</div> <!-- .event-footer ends -->
-								</div> <!-- .event-details ends -->
-							</div> <!-- .content-block ends -->
-						</li> <!-- .event ends -->
+									</div> --> <!-- .event-footer ends -->
+								<!-- </div> --> <!-- .event-details ends -->
+							<!-- </div> --> <!-- .content-block ends -->
+						<!-- </li> --> <!-- .event ends -->
 
-						<li class="event clearfix">
+						<!-- <li class="event clearfix">
 							<div class="image-block">
 								<img class="img-responsive" src="http://placehold.it/500x357" alt="event image">
-							</div> <!-- .image-block ends -->
-							<div class="content-block">
+							</div> --> <!-- .image-block ends -->
+							<!-- <div class="content-block">
 								<span class="event-date">May 24, 2020</span>
 								<div class="event-details">
 									<h2>Eepteur sint o erunt mo est laboru</h2>
 									<ul class="event-meta">
 										<li>Time: <span>10.00 am</span></li>
 										<li>Place: <span>Kathmandu University</span></li>
-									</ul> <!-- .event-meta ends -->
-									<div class="event-footer">
+									</ul> --> <!-- .event-meta ends -->
+									<!-- <div class="event-footer">
 										<a class="join-link" href="#">Join Now</a>
 										<a class="read-more-link" href="#">Learn More</a>
-									</div> <!-- .event-footer ends -->
-								</div> <!-- .event-details ends -->
-							</div> <!-- .content-block ends -->
-						</li> <!-- .event ends -->
-					</ul> <!-- .event-list ends -->
-				</div> <!-- .col-lg-6 ends -->
-			</div> <!-- .row ends -->
-		</div> <!-- .container ends -->
-	</section> <!-- .campaign-events ends -->
+									</div> --> <!-- .event-footer ends -->
+								<!-- </div> --> <!-- .event-details ends -->
+							<!-- </div> --> <!-- .content-block ends -->
+						<!-- </li> --> <!-- .event ends -->
+					<!-- </ul> --> <!-- .event-list ends -->
+				<!-- </div> --> <!-- .col-lg-6 ends -->
+			<!-- </div> --> <!-- .row ends -->
+		<!-- </div> --> <!-- .container ends -->
+	<!-- </section> --> <!-- .campaign-events ends -->
 
 
 	<!-- FEATURED EVENT  -->
@@ -660,20 +659,15 @@
 					<i class="icon ion-ios-star"></i>
 					<i class="icon ion-ios-star"></i>
 				</div>
-				<p>
-					Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident.
-				</p>
 			</div> <!-- .section-title-block ends -->
 
 			<div class="row section-content">
 				<div class="col-lg-3 member-block">
 					<div class="content-wrapper">
-						<img class="img-responsive" src="http://placehold.it/265x375" alt="member photo">
+						<img class="img-responsive" src="img/bam.jpg"alt="member photo">
 
 						<div class="member-content">
-							<h4 class="member-name">Jhonson Doe</h4>
+							<h4 class="member-name">Bamdev Gautam</h4>
 							<span class="designation">President</span>
 							<div class="hover-content">
 								<p>
